@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <!-- 搜索区域 -->
+
+    <RelativeLayout
+        android:id="@+id/main_titlebar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/appcenter_search_title_bar_height"
+        android:background="@color/appcenter_main_titlebar_bg_color" >
+        <!-- 侧边栏图标区域 -->
+
+        <net.bat.store.widget.TouchMaskRelativeLayout
+            xmlns:mask="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/main_titlebar_side_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:descendantFocusability="blocksDescendants"
+            mask:AppCenterMaskDrawable="@color/appcenter_cover_color" >
+
+            <!-- 侧边栏入口图标 -->
+
+            <ImageView
+                android:id="@+id/main_titlebar_sidebar_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/app_name"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:src="@mipmap/appcenter_main_sidebar_grey" />
+
+            <!-- 侧边栏图标上红点区域 -->
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@id/main_titlebar_sidebar_btn"
+                android:layout_alignTop="@id/main_titlebar_sidebar_btn"
+                android:paddingEnd="15dp"
+                android:paddingTop="1dp" >
+
+                <!-- 红点图标 -->
+
+                <ImageView
+                    android:id="@+id/main_titlebar_side_layout_red_point"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:background="@mipmap/appcenter_main_sidebar_red_dot"
+                    android:contentDescription="@string/app_name" />
+            </RelativeLayout>
+        </net.bat.store.widget.TouchMaskRelativeLayout>
+
+        <!-- 搜索输入框区域 -->
+
+        <net.bat.store.widget.TouchMaskRelativeLayout xmlns:mask="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/main_titlebar_search_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/appcenter_search_box_height"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/appcenter_search_box_margin_right"
+            android:layout_toEndOf="@id/main_titlebar_side_layout"
+            android:background="@drawable/appcenter_main_titlebar_searchbar_bg_grey"
+            android:descendantFocusability="blocksDescendants"
+            mask:AppCenterMaskDrawable="@color/appcenter_cover_color" >
+
+            <!-- 搜索图标 -->
+
+            <ImageView
+                android:id="@+id/main_titlebar_search_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/appcenter_search_btn_margin_right"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/appcenter_search_btn_selector" />
+            <!-- 输入框 -->
+
+            <TextView
+                android:id="@+id/main_titlebar_search_hint_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/appcenter_main_titlebar_searchbar_hint_text_margin_left"
+                android:singleLine="true"
+                android:text="@string/app_name"
+                android:textColor="#939393"
+                android:textSize="@dimen/appcenter_main_titlebar_searchbar_hint_text_size" />
+        </net.bat.store.widget.TouchMaskRelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

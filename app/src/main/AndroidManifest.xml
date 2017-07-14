@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.bat.store">
+    <!--android:sharedUserId="android.uid.shell">-->
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!--<uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>-->
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+
+
+    <meta-data
+        android:name="DOWNLOAD_KEY"
+        android:value="d5d21b158b9925bcc51c6c7b1e6d4459"></meta-data>
+
+    <application
+        android:name="net.bat.store.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="com.zz.store.core.main.MainScreenActivity"
+            android:theme="@style/AppTheme_Main"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="net.bat.store.ux.acticivty.AhaMainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc|fontScale|locale|layoutDirection"
+            android:launchMode="singleTask"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="net.bat.store.ahadeeplink"/>
+            </intent-filter>
+        </activity>
+        <!-- [START fcm_default_icon] -->
+        <!-- Set custom default icon. This is used when no icon is set for incoming notification messages.
+             See README(https://goo.gl/l4GJaQ) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/ic_launcher" />
+        <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+        <!-- [END fcm_default_icon] -->
+        <!-- [START firebase_service] -->
+
+        <service
+            android:name="net.bat.store.service.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <!-- [END firebase_service] -->
+
+        <!-- [START firebase_iid_service] -->
+        <service
+            android:name="net.bat.store.service.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <!-- [END firebase_iid_service] -->
+        <activity
+            android:name="net.bat.store.ux.acticivty.SortDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="net.bat.store.ux.acticivty.SearchActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="net.bat.store.ux.acticivty.UninstallActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="net.bat.store.ux.acticivty.H5Activity"
+            android:theme="@style/AppTheme_h5"
+            android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <activity android:name=".ux.acticivty.MoreDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="net.bat.store.ux.acticivty.AppDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme_detail" />
+        <activity
+            android:name="net.bat.store.ux.acticivty.AdDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme_detail" />
+
+        <activity
+            android:name="net.bat.store.ux.acticivty.ImagePageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ux.acticivty.UpdateAcitivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ux.acticivty.TopicActivity"
+            android:screenOrientation="portrait"/>
+
+        <service android:name="net.bat.store.service.AppCenterNotifyService"
+            android:enabled="true">
+            <intent-filter
+                android:priority="1000">
+                <action android:name="com.bat.appstore.autocheck" />
+            </intent-filter>
+        </service>
+        <!--download-->
+        <activity
+            android:name="net.bat.store.ux.acticivty.DownloadListActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.zxt.download2.action"/>
+            </intent-filter>
+        </activity>
+
+        <!--<activity-->
+            <!--android:name="com.transsion.h5gamelibrary.GameRobbyActivity"-->
+            <!--android:configChanges="keyboardHidden|orientation|screenSize"-->
+            <!--android:launchMode="singleTask">-->
+            <!--<intent-filter>-->
+                <!--<action    android:name="com.transsion.action.SHORTCUT"/>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.DEFAULT"/>-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+
+
+        <receiver android:name="net.bat.store.receiver.CompleteBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="net.bat.store.receiver.AppCenterDynamicBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".receiver.LocaleChangeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="net.bat.store.receiver.UninstallBroadCast">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="net.bat.store.receiver.AppCenterBootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="net.bat.store.receiver.AppCenterNetWorkReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.intent.action.DATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data android:name="net.bat.store.GlideConfiguration" android:value="GlideModule"/>
+
+    </application>
+
+</manifest>

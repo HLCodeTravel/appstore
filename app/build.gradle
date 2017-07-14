@@ -1,0 +1,85 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "net.bat.store"
+        minSdkVersion 19
+        targetSdkVersion 22
+        versionCode 205
+        versionName "3.0.3"
+    }
+
+    signingConfigs {
+        keyConfig {
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+            storeFile file('../keystore/android.keystore')
+            storePassword 'android'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.keyConfig
+        }
+        debug {
+            signingConfig signingConfigs.keyConfig
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+        disable 'InvalidPackage'
+        disable 'MissingTranslation'
+        disable 'ExtraTranslation'
+    }
+
+    productFlavors {
+        version_debug {
+            versionName = "D" + defaultConfig.versionName
+            buildConfigField "int", "APP_MODE", "1"
+        }
+        version_release {
+            versionName = "V" + defaultConfig.versionName
+            buildConfigField "int", "APP_MODE", "0"
+        }
+        version_test {
+            versionName = "T" + defaultConfig.versionName
+            buildConfigField "int", "APP_MODE", "2"
+        }
+    }
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:23.2.1'
+    compile 'com.android.support:design:23.2.1'
+    compile 'com.android.support:cardview-v7:23.2.1'
+    compile 'com.android.support:recyclerview-v7:23.2.1'
+    compile 'com.google.code.gson:gson:2.6.2'
+    compile 'com.github.bumptech.glide:glide:3.6.1'
+    compile 'com.google.firebase:firebase-analytics:10.0.1'
+    compile 'com.google.firebase:firebase-messaging:10.0.1'
+    compile 'com.google.firebase:firebase-ads:10.0.1'
+//    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5'
+//    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5'
+//    compile 'com.readystatesoftware.systembartint:systembartint:1.0.3'
+//    compile 'com.transsion.api:h5gamesdk:1.0.23'
+    compile 'com.transsion.api:admedia:1.0.51'
+    compile ('com.transsion.api:coreutil:+') {changing=true}
+    compile ('com.transsion.api:http:+'){changing=true}
+}
+
+apply plugin: 'com.google.gms.google-services'

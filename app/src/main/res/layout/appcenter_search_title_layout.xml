@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/appcenter_common_bg_color_grey">
+
+    <FrameLayout
+        android:id="@+id/back_btn"
+        android:layout_width="46dp"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="2dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/appcenter_title_icon_selector"
+        >
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_6dp"
+            android:layout_gravity="center"
+            android:src="@drawable/icon_back"/>
+    </FrameLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/search_btns_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/appcenter_search_box_height"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/appcenter_search_box_margin_right"
+        android:layout_toEndOf="@id/back_btn"
+        android:background="@drawable/appcenter_main_titlebar_searchbar_bg_grey">
+
+        <!-- 搜索图标 -->
+
+        <ImageView
+            android:id="@+id/main_titlebar_search_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/appcenter_search_btn_margin_right"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/appcenter_search_btn_selector" />
+        <!-- 输入框 -->
+
+        <EditText
+            android:id="@+id/search_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/appcenter_main_titlebar_searchbar_hint_text_margin_left"
+            android:layout_toStartOf="@id/main_titlebar_search_icon"
+            android:background="@null"
+            android:hint="@string/appcenter_search_box_default_content"
+            android:singleLine="true"
+            android:textColor="#939393"
+            android:textColorHint="#bbbbbb"
+            android:textCursorDrawable="@mipmap/appcenter_search_edit_cursor"
+            android:textSize="@dimen/appcenter_main_titlebar_searchbar_hint_text_size" />
+    </RelativeLayout>
+
+</RelativeLayout>

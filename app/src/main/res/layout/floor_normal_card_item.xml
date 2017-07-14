@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    app:cardBackgroundColor="@color/colorCardDefault"
+    app:cardCornerRadius="@dimen/card_corner_radius"
+    app:cardElevation="@dimen/card_elevation">
+
+    <net.bat.store.widget.TouchMaskRelativeLayout
+        android:id="@+id/banner_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants"
+        app:AppCenterMaskDrawable="@drawable/appcenter_recommend_banner_press">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/banner_layout"
+                android:layout_width="match_parent"
+                android:layout_height="125dp">
+
+                <!-- Banner -->
+                <ImageView
+                    android:id="@+id/banner_imageview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="center"
+                    android:src="@drawable/image_default" />
+
+                <LinearLayout
+                    android:id="@+id/category_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="16dp"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/item_tag"
+                    android:orientation="horizontal">
+
+                    <!-- 分类Icon -->
+                    <ImageView
+                        android:id="@+id/category_icon_imageview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/app_name"
+                        android:layout_marginStart="@dimen/dimen_10dp"
+                        android:src="@mipmap/appcenter_category_icon" />
+                    <!-- 分类名称 -->
+
+                    <TextView
+                        android:id="@+id/category_name_textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="6dp"
+                        android:layout_marginEnd="10dp"
+                        android:textSize="8sp" />
+                </LinearLayout>
+            </RelativeLayout>
+            <!-- 应用信息区域 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:paddingTop="10dp">
+
+                <!-- 应用图标 -->
+                <ImageView
+                    android:id="@+id/app_icon_imageview"
+                    android:layout_width="@dimen/appcenter_icon_width"
+                    android:layout_height="@dimen/appcenter_icon_width"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/image_default"
+                    android:contentDescription="@string/app_name" />
+                <!-- 应用其它属性区域 -->
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:id="@+id/app_name_textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="111111111111111111111111111111111111"
+                        android:textColor="@color/appcenter_common_titlebar_txt_color"
+                        android:textSize="@dimen/appcenter_icon_name_size" />
+                    <!-- 应用欢迎级别 -->
+
+                    <TextView
+                        android:id="@+id/tv_description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:layout_marginTop="4dp"
+                        android:singleLine="true"
+                        android:text="DESC"
+                        android:textColor="@color/appcenter_desc_text_color"
+                        android:textSize="@dimen/appcenter_desc_text_size" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="bottom"
+                        android:layout_marginTop="4dp">
+
+                        <RatingBar
+                            android:id="@+id/app_ratingBar"
+                            style="@style/appcenter_ratingBar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:clickable="false"
+                            android:isIndicator="true"
+                            android:numStars="5"
+                            android:rating="5"
+                            android:stepSize="0.1" />
+
+                        <ImageView
+                            android:id="@+id/app_size_image"
+                            android:layout_width="12dp"
+                            android:layout_height="12dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginStart="12dp"
+                            android:src="@drawable/appcenter_recommend_card_filesize" />
+
+                        <TextView
+                            android:id="@+id/app_size_textview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginStart="2dp"
+                            android:includeFontPadding="false"
+                            android:textColor="@color/appcenter_desc_text_color"
+                            android:textSize="@dimen/appcenter_desc_text_size" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="@dimen/appcenter_card_body_downbtn_width"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="@dimen/dimen_8dp">
+
+                    <ProgressBar
+                        android:id="@+id/pb_current_size"
+                        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/appcenter_card_body_downbtn_height"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:progressDrawable="@drawable/download_progress" />
+
+                    <Button
+                        android:id="@+id/download_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/appcenter_card_body_downbtn_height"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/app_detail_btn"
+                        android:gravity="center"
+                        android:text="@string/appcenter_download_text"
+                        android:textAllCaps="false"
+                        android:textSize="@dimen/appcenter_horizontalcard_item_apptitle_size"
+                        android:fontFamily="sans-serif-light"
+                        android:textColor="@color/appcenter_free_normal_color" />
+                    <!--<ImageView-->
+                    <!--android:layout_width="14dp"-->
+                    <!--android:layout_height="14dp"-->
+                    <!--android:layout_alignParentRight="true"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:id="@+id/iv_download_status"-->
+                    <!--android:layout_marginEnd="7dp"-->
+                    <!--android:visibility="gone"/>-->
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/app_detail_textview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginEnd="14dp"
+                    android:ellipsize="end"
+                    android:maxLines="3"
+                    android:textColor="@color/appcenter_gridcard_header_textmore_color"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </net.bat.store.widget.TouchMaskRelativeLayout>
+</android.support.v7.widget.CardView>

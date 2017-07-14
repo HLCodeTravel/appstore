@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.iad.core.TNativeAdView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/t_native_ad">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <net.bat.store.ux.acticivty.DetailScrollView
+        android:id="@+id/sv_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/app_detail_top_banner_height">
+
+                <View
+                    android:id="@+id/v_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/color_google_play" />
+
+                <ImageView
+                    android:id="@+id/iv_top_banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"/>
+
+            </RelativeLayout>
+
+            <include layout="@layout/ad_detail_item" />
+
+            <include layout="@layout/app_detail_content" />
+        </LinearLayout>
+    </net.bat.store.ux.acticivty.DetailScrollView>
+</FrameLayout>
+</com.transsion.iad.core.TNativeAdView>

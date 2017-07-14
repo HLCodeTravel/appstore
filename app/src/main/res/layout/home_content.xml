@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appcenter_main_fragment_backgroud"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <!--&lt;!&ndash; 无网络 &ndash;&gt;-->
+    <include
+        android:id="@+id/no_network"
+        layout="@layout/appcenter_no_network_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <!-- 请求失败 -->
+    <include
+        android:id="@+id/request_fail"
+        layout="@layout/appcenter_request_fail_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <!-- 进度圈，视需求而定看是否需要进度圈 -->
+    <!--<include-->
+        <!--android:id="@+id/load_progress"-->
+        <!--layout="@layout/appcenter_loading_progress_big"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerInParent="true" />-->
+    <!--<ImageView-->
+        <!--android:id="@+id/load_progress"-->
+        <!--android:scaleType="fitCenter"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:layout_width="@dimen/appcenter_loading_progress_big_size"-->
+        <!--android:layout_height="@dimen/appcenter_loading_progress_big_size" />-->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_selection"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:divider="@color/appcenter_main_fragment_backgroud"
+        android:dividerHeight="10dp"
+        android:fadingEdge="none"
+        android:paddingEnd="6dp"
+        android:paddingStart="6dp"
+        android:paddingTop="6dp"
+        android:scrollbars="none" />
+
+</RelativeLayout>
+
+
+

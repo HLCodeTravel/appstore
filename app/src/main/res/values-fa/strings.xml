@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="install_records">سوابق نصب</string>
+    <string name="install_complete">موفقیت نصب</string>
+    <string name="install_app">نصب</string>
+    <string name="share">"اشتراک‌گذاری"</string>
+    <string name="settings">"تنظیمات"</string>
+    <string name="no_task">هیچ تکلیفی وجود ندارد</string>
+    <string name="uninstall">"حذف نصب"</string>
+    <string name="uninstalling">در حال پاک کردن</string>
+    <string name="check_update">بررسی برای بروز رسانی</string>
+    <string name="installed_app_update">نرم افزار به روز رسانی</string>
+    <string name="app_manager">مدیربرنامه</string>
+    <string name="app_detail">"اطلاعات برنامه"</string>
+
+    <string name="appcenter_request_fail">امکان بارگذاری وجود ندارد، لطفاً مجدداً امتحان </string>
+    <string name="appcenter_open_text">"باز کردن"</string>
+    <string name="missing_title">بی نام</string>
+    <string name="appcenter_appcenter_update_text">"به‌روزرسانی"</string>
+    <string name="appcenter_apps_update_operation_ignore">"نادیده گرفتن"</string>
+    <string name="appcenter_apps_update_see_all">مشاهده همه موارد</string>
+    <string name="appcenter_search_box_default_content">"جستجو"</string>
+    <string name="appcenter_search_no_result_text">محتوای مرتبطی وجود ندارد</string>
+    <string name="appcenter_search_no_more_tip">برنامه دیگری وجود ندارد</string>
+    <string name="appcenter_apps_update_go">"برو"</string>
+    <string name="appcenter_delete_history_all">"پاک کردن همه"</string>
+    <string name="appcenter_apps_update_no_update_app_prompt">برنامه ها به آخرین نسخه به روز شدند، ادامه دهید!</string>
+    <string name="appcenter_apps_update_refresh">"بازخوانی"</string>
+    <string name="installing">"در حال نصب"</string>
+    <string name="is_new_version">جدیدترین نسخه!</string>
+    <string name="warn_search_no_content">جستجوی محتوا نباید خالی باشد</string>
+
+    <string name="appcenter_download_text">"دانلود"</string>
+    <string name="download_manager">مدیر دانلود</string>
+    <string name="downloaded_group_title">تکمیل شد</string>
+    <string name="download_complete">دانلود به اتمام رسید.</string>
+    <string name="download_status_downloading">"در حال دانلود"</string>
+    <string name="download_status_pause">"مکث"</string>
+    <string name="download_status_init">آماده برای دانلود</string>
+
+    <string name="download_continue">"ادامه"</string>
+    <string name="download_error">دانلود موفقیت آمیز نبود</string>
+    <string name="cancel">لغو</string>
+    <string name="ok">"تأیید"</string>
+    <string name="clear_task_records">سوابق را پاک کنید</string>
+    <string name="appcenter_no_network">شبکه در حال حاضر در دسترس نمی باشد</string>
+    <string name="invaild_banner_link">لینک نامعتبر</string>
+
+    <string name="get_update_msg">درحال دریافت اطلاعات دانلود</string>
+    <string name="get_new_version">نسخه جدیدی یافت شد، آیا می خواهید به روز رسانی شود؟</string>
+    <string name="install_fail">عدم نصب موفق</string>
+    <string name="more">بیشتر</string>
+    <string name="no_app_exist">"برنامه‌ای موجود نیست"</string>
+    <string name="unknow">ناشناخته</string>
+    <string name="uninstall_or_not">آیا می خواهید این برنامه را جدا کنید؟</string>
+    <string name="task_downloading">کار دانلود وجود داشته است</string>
+
+    <string name="developer">سازنده</string>
+    <string name="task_exist">جدیدترین نسخه دانلود شد</string>
+    <string name="desc_short">مقدمه</string>
+    <string name="appcenter_play">"باز کردن"</string>
+    <string name="appcenter_version">"نسخه"</string>
+    <string name="appcenter_size">"اندازه"</string>
+</resources>

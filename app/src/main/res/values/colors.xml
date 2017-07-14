@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#679E37</color>
+    <color name="colorPrimaryDark">#1a1a1a</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorCardDefault">#F2F2F2</color>
+    <color name="colorDivider">#CCCCCC</color>
+    <color name="colorDetailBanner">#679E37</color>
+    <color name="color_google_play">#0F9D58</color>
+    <color name="color_dark_google_play">#0C7E46</color>
+    <color name="appcenter_main_fragment_backgroud">#e8e8e8</color>
+
+    <color name="color_selection_primary">#f47</color>
+    <color name="color_game_primary">#8f1</color>
+    <color name="color_application_primary">#35f</color>
+
+
+    <color name="colorSelectionPrimary">#ed3b3b</color>
+
+    <color name="colorGamePrimary">#68ba3b</color>
+    <color name="colorGameIndicator">#64B339</color>
+
+    <color name="colorApplicationPrimary">#2092ed</color>
+    <color name="colorApplicationIndicator">#2195f1</color>
+
+
+    <color name="colorTabTextColor">#afafaf</color>
+
+    <color name="colorMenuDivider">#606060</color>
+
+    <color name="appcenter_other_titlebar_bg_color">#00aaff</color> <!-- 其他界面标题栏背景色 -->
+    <color name="appcenter_common_bg_color_grey">#F5F5F5</color>
+    <!-- gridviewcard -->
+    <color name="appcenter_gridcard_header_texttitle_color">#1A1A1A</color>
+    <color name="appcenter_gridcard_header_textmore_color">#bbbbbb</color>
+    <color name="appcenter_gridcard_header_apptitle_color">#535353</color>
+    <color name="appcenter_horizontalscrollcard_app_name_text">#363636</color>
+
+    <!--search-->
+    <color name="appcenter_drop_down_box_item_text_color">#444444</color>
+    <color name="appcenter_drop_down_box_transparent_color">#50000000</color>
+    <color name="appcenter_search_page_bg">#eeeeee</color>
+    <color name="appcenter_delete_history_btn_click_color">#e5e5e5</color>
+    <color name="appcenter_free_click_color">#40bfff</color>
+    <color name="appcenter_free_normal_color">#FFFFFF</color>
+    <color name="appcenter_hot_words_click_color">#ffffff</color>
+    <color name="appcenter_hot_words_normal_color">#40bfff</color>
+    <color name="appcenter_open_normal_color">#F3F3F3</color>
+
+    <!--download-->
+    <color name="skin_download_title_color">#2f2f2f</color>
+    <color name="skin_download_delete_color">#2f2f2f</color>
+    <color name="skin_download_bg_color">#eaedf2</color>
+    <color name="skin_download_bg2_color">#fffafafa</color>
+    <color name="skin_download_line_color">#cccccc</color>
+    <color name="skin_download_item_file_name_color">#2f2f2f</color>
+    <color name="skin_download_item_file_size_color">#666</color>
+    <color name="black10">#1a000000</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="loadingtextcolor">#666</color>
+
+    <color name="appcenter_common_titlebar_txt_color">#1a1a1a</color>
+    <color name="appcenter_detail_text_color">#525252</color>
+    <color name="appcenter_desc_text_color">#808080</color>
+
+    <!-- wallpaper report -->
+    <color name="appcenter_report_textcolor">#444444</color>
+    <color name="appcenter_report_username_textcolor">#bbbbbb</color>
+    <color name="appcenter_report_button_textcolor">#FFFFFF</color>
+    <color name="appcenter_report_button_background">#00aaff</color>
+
+    <!-- HorizontalScrollCard -->
+    <color name="appcenter_horizontalscrollcard_title_text_normal">#bbbbbb</color>
+
+    <color name="appcenter_main_titlebar_bg_color">#ffffff</color>
+    <color name="appcenter_cover_color">#26000000</color>
+
+    <color name="bottom_title_click_color">#FF0F9D58</color>
+    <color name="bottom_title_unclick_color">#FF9E9E9E</color>
+    <drawable name="new_v6">#19000000</drawable>
+</resources>

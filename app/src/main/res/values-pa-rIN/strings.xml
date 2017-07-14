@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">Aha</string>
+
+    <string name="install_records">ਇੰਸਟਾਲੇਸ਼ਨ ਰਿਕਾਰਡ
+</string>
+    <string name="install_app">"ਸਥਾਪਿਤ ਕਰੋ"
+</string>
+    <string name="share">"ਸਾਂਝਾ ਕਰੋ"
+</string>
+    <string name="settings">ਸੈਟਿੰਗਾਂ
+</string>
+    <string name="no_task">ਕੋਈ ਟੀਚਾ ਨਹੀਂ
+</string>
+    <string name="uninstall">"ਅਣਇੰਸਟੌਲ ਕਰੋ"
+</string>
+    <string name="uninstalling">ਅਨ ਇੰਸਟਾਲ
+</string>
+    <string name="check_update">ਅੱਪਡੇਟਾਂ ਲਈ ਜਾਂਚ ਕਰੋ
+</string>
+    <string name="installed_app_update">ਐਪ ਅੱਪਡੇਟ
+</string>
+    <string name="app_manager">ਐਪ ਮੈਨੇਜਰ
+</string>
+    <string name="app_detail">"ਐਪ ਜਾਣਕਾਰੀ"
+</string>
+
+    <string name="appcenter_no_network">ਨੈੱਟਵਰਕ ਉਪਲਬਧ ਨਹੀਂ
+</string>
+    <string name="appcenter_request_fail">ਲੋਡ ਕਰਨ ਲਈ ਅਸਫ਼ਲ ਹੈ, ਬਾਅਦ \'ਚ ਕੋਸ਼ਿਸ਼ ਕਰੋ।
+</string>
+    <string name="appcenter_open_text">"ਖੋਲ੍ਹੋ"
+</string>
+    <string name="appcenter_appcenter_update_text">"ਅਪਡੇਟ"
+</string>
+    <string name="appcenter_apps_update_operation_ignore">"ਅਣਡਿੱਠ ਕਰੋ"
+</string>
+    <string name="appcenter_apps_update_see_all">ਸਭ ਵੇਖੋ
+</string>
+    <string name="clear_task_records">ਰਿਕਾਰਡਾਂ ਨੂੰ ਹਟਾਓ
+</string>
+    <string name="appcenter_search_box_default_content">"ਖੋਜੋ"
+</string>
+    <string name="appcenter_search_no_result_text">ਕੋਈ ਸਬੰਧਿਤ ਸਮੱਗਰੀ ਨਹੀਂ ਹੈ
+</string>
+    <string name="appcenter_search_no_more_tip">ਕੋਈ ਹੋਰ ਐਪਾਂ ਨਹੀਂ
+</string>
+    <string name="appcenter_apps_update_go">"ਜਾਓ"
+</string>
+    <string name="appcenter_delete_history_all">"ਸਭ ਸਾਫ਼ ਕਰੋ"
+</string>
+    <string name="appcenter_apps_update_no_update_app_prompt">ਸਾਰੇ ਐਪਾਂ ਨੂੰ ਨਵੀਨਤਮ ਵਰਜ਼ਨ ਲਈ ਅੱਪਡੇਟ ਕੀਤਾ ਜਾ ਚੁੱਕਾ ਹੈ, ਜਾਰੀ ਰੱਖੋ!
+</string>
+    <string name="appcenter_apps_update_refresh">"ਤਾਜ਼ਾ"
+</string>
+    <string name="installing">"ਇੰਸਟੌਲ ਕਰ ਰਿਹਾ ਹੈ"
+</string>
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+    <string name="appcenter_download_text">"ਡਾਊਨਲੋਡ ਕਰੋ"
+</string>
+    <string name="download_manager">ਡਾਊਨਲੋਡ ਮੈਨੇਜਰ
+</string>
+    <string name="downloaded_group_title">ਪੂਰੇ ਹੋਏ
+</string>
+    <string name="download_complete">ਡਾਊਨਲੋਡ ਪੂਰਾ ਹੋਇਆ।
+</string>
+    <string name="download_status_downloading">ਡਾਊਨਲੋਡ
+</string>
+    <string name="download_status_pause">"ਰੋਕੋ"
+</string>
+    <string name="download_status_init">ਡਾਊਨਲੋਡ ਕਰਨ ਲਈ ਤਿਆਰ
+</string>
+    <string name="download_status_stop">"ਰੋਕੋ"
+</string>
+    <string name="download_continue">"ਜਾਰੀ ਰੱਖੋ"
+</string>
+    <string name="download_error">ਡਾਊਨਲੋਡ ਅਸਫ਼ਲ ਹੈ
+</string>
+    <string name="cancel">"ਰੱਦ ਕਰੋ"
+</string>
+    <string name="ok">ਪੁਸ਼ਟੀ ਕਰੋ
+</string>
+    <string name="install_complete">ਇੰਸਟਾਲੇਸ਼ਨ ਕਾਮਯਾਬ
+</string>
+    <string name="download_speed">%2$s KB/S</string>
+    <string name="download_list_action">com.zxt.download2.action</string>
+    <string name="warn_search_no_content">ਖੋਜ ਸਮੱਗਰੀ ਖਾਲੀ ਨਹੀਂ ਹੋ ਸਕਦੀ
+</string>
+    <string name="invaild_banner_link">ਅਵੈਧ ਲਿੰਕ
+</string>
+    <string name="is_new_version">ਨਵੀਨਤਮ ਵਰਜ਼ਨ!</string>
+    <string name="missing_title">ਬੇਨਾਮ
+</string>
+    <string name="get_update_msg">ਅੱਪਡੇਟ ਜਾਣਕਾਰੀ ਪ੍ਰਾਪਤ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ\u2026</string>
+    <string name="get_new_version">ਨਵਾਂ ਵਰਜ਼ਨ ਖੋਜਿਆ ਗਿਆ, ਅੱਪਡੇਟ ਕਰਨਾ ਹੈ?
+</string>
+    <string name="install_fail">ਇੰਸਟਾਲੇਸ਼ਨ ਅਸਫ਼ਲ ਹੈ
+</string>
+    <string name="more">"ਹੋਰ"
+</string>
+    <string name="no_app_exist">"ਕੋਈ ਐਪਾਂ ਨਹੀਂ"
+</string>
+    <string name="unknow">"ਅਗਿਆਤ"
+</string>
+    <string name="uninstall_or_not">ਇਸ ਐਪ ਨੂੰ ਅਣ-ਮਾਊਂਟ ਕਰਨਾ ਹੈ?
+</string>
+    <string name="task_downloading">ਡਾਊਨਲੋਡ ਕੰਮ ਮੌਜੂਦ ਹੈ
+</string>
+
+    <string name="developer">ਡਿਵੈਲਪਰ:</string>
+    <string name="task_exist">ਨਵਾਂ ਵਰਜ਼ਨ ਡਾਊਨਲੋਡ ਕੀਤਾ ਗਿਆ
+</string>
+
+    <string name="desc_short">ਜਾਣ-ਪਛਾਣ
+</string>
+    <string name="appcenter_play">"ਖੋਲ੍ਹੋ"
+</string>
+    <string name="appcenter_version">"ਵਰਜਨ":</string>
+    <string name="appcenter_size">"ਆਕਾਰ":</string>
+</resources>

@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">Aha</string>
+
+    <string name="install_records">ಇನ್ಸ್ಟಾಲೇಷನ್ ದಾಖಲೆಗಳು
+</string>
+    <string name="install_app">"ಸ್ಥಾಪಿಸು"
+</string>
+    <string name="share">"ಹಂಚು"
+</string>
+    <string name="settings">"ಸೆಟ್ಟಿಂಗ್‌ಗಳು"
+</string>
+    <string name="no_task">ಮಿಶನ್ ಇಲ್ಲ
+</string>
+    <string name="uninstall">"ಅಸ್ಥಾಪಿಸು"
+</string>
+    <string name="uninstalling">ಅಸ್ಥಾಪಿಸುತ್ತಿದೆ
+</string>
+    <string name="check_update">ಅಪ್‌ಡೇಟ್‌ಗಳಿಗಾಗಿ ಹೊಂದಿಸಿ
+</string>
+    <string name="installed_app_update">ಅನ್ವಯಿಸುವಿಕೆ ನವೀಕರಣ
+</string>
+    <string name="app_manager">ಅಪ್ಲಿಕೇಶನ್‌ ಮ್ಯಾನೇಜರ್
+</string>
+    <string name="app_detail">"ಅಪ್ಲಿಕೇಶನ್ ಮಾಹಿತಿ"
+</string>
+
+    <string name="appcenter_no_network">ನೆಟ್‌ವರ್ಕ್ ಲಭ್ಯವಿಲ್ಲ
+</string>
+    <string name="appcenter_request_fail">ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ, ನಂತರ ಪುನಃ ಪ್ರಯತ್ನಿಸಿ.
+</string>
+    <string name="appcenter_open_text">"ತೆರೆ"
+</string>
+    <string name="appcenter_appcenter_update_text">"ಅಪ್‌ಡೇಟ್‌ ಮಾಡು"
+</string>
+    <string name="appcenter_apps_update_operation_ignore">"ನಿರ್ಲಕ್ಷಿಸು"
+</string>
+    <string name="appcenter_apps_update_see_all">ಎಲ್ಲವನ್ನೂ ನೋಡಿ
+</string>
+    <string name="clear_task_records">ದಾಖಲೆಗಳನ್ನು ಅಳಿಸಿ
+</string>
+    <string name="appcenter_search_box_default_content">"ಹುಡುಕು"
+</string>
+    <string name="appcenter_search_no_result_text">ಸಂಬಂಧಿಸಿದ ವಿಷಯವಿಲ್ಲ
+</string>
+    <string name="appcenter_search_no_more_tip">ಅಪ್ಲಿಕೇಶನ್‍ಗಳಿಲ್ಲ
+</string>
+    <string name="appcenter_apps_update_go">"ಹೋಗು"
+</string>
+    <string name="appcenter_delete_history_all">"ಎಲ್ಲವನ್ನೂ ತೆರವುಗೊಳಿಸಿ"
+</string>
+    <string name="appcenter_apps_update_no_update_app_prompt">ಎಲ್ಲಾ ಅಪ್ಲಿಕೇಶನ್‍ಗಳನ್ನು ಇತ್ತೀಚಿನ ಆವೃತ್ತಿಗೆ ಅಪ್‍ಡೇಟ್ ಮಾಡಲಾಗಿದೆ, ಮುಂದುವರಿಸಿರಿ!
+</string>
+    <string name="appcenter_apps_update_refresh">"ರಿಫ್ರೆಶ್‌ ಮಾಡಿ"
+</string>
+    <string name="installing">"ಸ್ಥಾಪಿಸಲಾಗುತ್ತಿದೆ"
+</string>
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+    <string name="appcenter_download_text">"ಡೌನ್‌ಲೋಡ್‌"
+</string>
+    <string name="download_manager">ಮ್ಯಾನೇಜರ್ ಅನ್ನು ಡೌನ್‍ಲೋಡ್ ಮಾಡಿ
+</string>
+    <string name="downloaded_group_title">ಮುಗಿದಿದೆ
+</string>
+    <string name="download_complete">ಡೌನ್‍ಲೋಡ್ ಪೂರ್ಣಗೊಂಡಿದೆ.
+</string>
+    <string name="download_status_downloading">"ಡೌನ್‌ಲೋಡ್‌  ಮಾಡಲಾಗುತ್ತಿದೆ"
+</string>
+    <string name="download_status_pause">"ವಿರಾಮ"
+</string>
+    <string name="download_status_init">ಡೌನ್‍ಲೋಡ್ ಮಾಡಲು ಸಿದ್ಧಗೊಳಿಸಿ
+</string>
+    <string name="download_status_stop">"ವಿರಾಮ"
+</string>
+    <string name="download_continue">"ಮುಂದುವರಿಸು"
+</string>
+    <string name="download_error">ಡೌನ್‍ಲೋಡ್ ವಿಫಲವಾಗಿದೆ
+</string>
+    <string name="cancel">ರದ್ದುಮಾಡು
+</string>
+    <string name="ok">"ದೃಢೀಕರಿಸಿ"
+</string>
+    <string name="install_complete">ಇನ್ಸ್ಟಾಲೇಷನ್ ಯಶಸ್ವಿಯಾಗಿದೆ
+</string>
+    <string name="download_speed">%2$s KB/S</string>
+    <string name="download_list_action">com.zxt.download2.action</string>
+    <string name="warn_search_no_content">ಹುಡುಕುತ್ತಿರುವ ವಿಷಯವನ್ನು ಖಾಲಿ ಬಿಡುವಂತಿಲ್ಲ
+</string>
+    <string name="invaild_banner_link">ಅಮಾನ್ಯ ಲಿಂಕ್
+</string>
+    <string name="is_new_version">ಇತ್ತೀಚಿನ ಆವೃತ್ತಿ!
+</string>
+    <string name="missing_title">ಹೆಸರಿಲ್ಲದ
+</string>
+    <string name="get_update_msg">ಅಪ್‍ಡೇಟ್ ಮಾಹಿತಿ ಪಡೆಯುವುದು\u2026</string>
+    <string name="get_new_version">ಹೊಸ ಆವೃತ್ತಿ ಕಂಡುಬಂದಿದೆ, ಅಪ್‍ಡೇಟ್ ಮಾಡುವುದೇ?
+</string>
+    <string name="install_fail">ಇನ್ಸ್ಟಾಲೇಷನ್ ವೈಫಲ್ಯ
+</string>
+    <string name="more">"ಇನ್ನಷ್ಟು"
+</string>
+    <string name="no_app_exist">"ಅಪ್ಲಿಕೇಶನ್‌ಗಳು ಇಲ್ಲ"
+</string>
+    <string name="unknow">"ಅಪರಿಚಿತ"
+</string>
+    <string name="uninstall_or_not">ಈ ಅಪ್ಲಿಕೇಶನನ್ನು ಅನ್‍ಮೌಂಟ್ ಮಾಡುವುದೇ?
+</string>
+    <string name="task_downloading">ಡೌನ್‍ಲೋಡ್ ಟಾಸ್ಕ್ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ
+</string>
+
+    <string name="developer">ಡೆವಲಪರ್:</string>
+    <string name="task_exist">ಇತ್ತೀಚಿನ ಆವೃತ್ತಿಯನ್ನು ಡೌನ್‍ಲೋಡ್ ಮಾಡಲಾಗಿದೆ
+</string>
+
+    <string name="desc_short">ಪರಿಚಯ</string>
+    <string name="appcenter_play">"ತೆರೆ"</string>
+    <string name="appcenter_version">"ಆವೃತ್ತಿ":</string>
+    <string name="appcenter_size">"ಗಾತ್ರ":</string>
+</resources>

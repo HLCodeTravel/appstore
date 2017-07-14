@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appcenter_main_fragment_backgroud">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_recommend"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:divider="@color/appcenter_main_fragment_backgroud"
+        android:dividerHeight="10dp"
+        android:fadingEdge="none"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:paddingTop="6dp"
+        android:scrollbars="none"
+        android:visibility="gone" />
+
+    <!--进度条-->
+    <ImageView
+        android:id="@+id/loading"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/appcenter_loading_progress_big_size"
+        android:layout_height="@dimen/appcenter_loading_progress_big_size" />
+    <!-- 无网络 -->
+    <include
+        android:id="@+id/no_network"
+        layout="@layout/appcenter_no_network_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <!-- 请求失败 -->
+    <include
+        android:id="@+id/request_fail"
+        layout="@layout/appcenter_request_fail_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/area_webview"
+        layout="@layout/appcenter_html5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <include layout="@layout/appcenter_float_button" />
+
+    <ImageView
+        android:id="@+id/icon_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:visibility="gone"
+        android:layout_marginLeft="@dimen/appcenter_reveal_back_margin"
+        android:layout_marginTop="@dimen/appcenter_reveal_back_margin"
+        android:background="@drawable/appcenter_imageview_back_selector" />
+
+</FrameLayout>

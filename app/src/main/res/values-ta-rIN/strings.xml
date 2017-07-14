@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Aha</string>
+
+    <string name="install_records">நிறுவல் பதிவுகள்</string>
+    <string name="install_app">"நிறுவு"</string>
+    <string name="share">"பகிர்"</string>
+    <string name="settings">"அமைப்பு"</string>
+    <string name="no_task">குறிக்கோள் இல்லை</string>
+    <string name="uninstall">"நிறுவல் நீக்குதல்"</string>
+    <string name="uninstalling">மென்பொருளை நீக்க</string>
+    <string name="check_update">புதுப்பிப்புகளுக்குச் சோதித்திடு</string>
+    <string name="installed_app_update">பயன்பாட்டு புதுப்பிப்பு</string>
+    <string name="app_manager">ஆப் மேலாளர்</string>
+    <string name="app_detail">"பயன்பாட்டுத் தகவல்"</string>
+
+    <string name="appcenter_no_network">நெட்வொர்க் கிடைக்கவில்லை</string>
+    <string name="appcenter_request_fail">ஏற்றுவது தோல்வியுற்றது, பின்னர் மீண்டும் முயலுக.</string>
+    <string name="appcenter_open_text">"திற"</string>
+    <string name="appcenter_appcenter_update_text">"புதுப்பி"</string>
+    <string name="appcenter_apps_update_operation_ignore">"புறக்கணி"</string>
+    <string name="appcenter_apps_update_see_all">எல்லாம் பார்</string>
+    <string name="clear_task_records">பதிவுகளை நீக்கு</string>
+    <string name="appcenter_search_box_default_content">"தேடு"</string>
+    <string name="appcenter_search_no_result_text">தொடர்புடைய உள்ளடக்கம் இல்லை</string>
+    <string name="appcenter_search_no_more_tip">மேலும் செயலிகள் இல்லை</string>
+    <string name="appcenter_apps_update_go">"செல்"</string>
+    <string name="appcenter_delete_history_all">"அனைத்தையும் அழி"</string>
+    <string name="appcenter_apps_update_no_update_app_prompt">செயலிகள் அனைத்தும், சமீபத்திய பதிப்பிற்கு புதுப்பிக்கப்பட்டுள்ளன, தொடர்ந்து செல்லுங்கள்!</string>
+    <string name="appcenter_apps_update_refresh">"புதுப்பி"</string>
+    <string name="installing">"நிறுவுகிறது"</string>
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+    <string name="appcenter_download_text">"பதிவிறக்கு"</string>
+    <string name="download_manager">பதிவிறக்கல் மேலாளர்</string>
+    <string name="downloaded_group_title">முடிந்தது</string>
+    <string name="download_complete">பதிவிறக்கம் முடிந்தது.</string>
+    <string name="download_status_downloading">"பதிவிறக்குகிறது"</string>
+    <string name="download_status_pause">"இடைநிறுத்து"</string>
+    <string name="download_status_init">பதிவிறக்கத் தயார்செய்</string>
+    <string name="download_status_stop">"இடைநிறுத்து"</string>
+    <string name="download_continue">"தொடரவும்"</string>
+    <string name="download_error">பதிவிறக்கம் தோல்வி</string>
+    <string name="cancel">ரத்துசெய்</string>
+    <string name="ok">"உறுதிசெய்க"</string>
+    <string name="install_complete">நிறுவல் வெற்றி</string>
+    <string name="download_speed">%2$s KB/S</string>
+    <string name="download_list_action">com.zxt.download2.action</string>
+    <string name="warn_search_no_content">தேடல் உள்ளடக்கம் காலியாக இருக்க முடியாது</string>
+    <string name="invaild_banner_link">செல்லுபடியாகாத இணைப்பு</string>
+    <string name="is_new_version">சமீபத்திய பதிப்பு!</string>
+    <string name="missing_title">பெயரிடாதது</string>
+    <string name="get_update_msg">புதுப்பிப்புத் தகவலைப் பெறுகிறது\u2026</string>
+    <string name="get_new_version">புதிய பதிப்பு கண்டறியப்பட்டுள்ளது, புதுப்பிக்கவா?</string>
+    <string name="install_fail">நிறுவல் தோல்வி</string>
+    <string name="more">"மேலும்"</string>
+    <string name="no_app_exist">"பயன்பாடுகள் இல்லை"!</string>
+    <string name="unknow">"தெரியாத எண்"</string>
+    <string name="uninstall_or_not">இச்செயலியை அகற்றவா?</string>
+    <string name="task_downloading">பதிவிறக்கல் பணி நடப்பிலுள்ளது</string>
+
+    <string name="developer">டெவலப்பர்:</string>
+    <string name="task_exist">சமீபத்திய பதிப்பு பதிவிறக்கப்பட்டுள்ளது!</string>
+
+    <string name="desc_short">Brief</string>
+    <string name="appcenter_play">Play</string>
+    <string name="appcenter_version">"பதிப்பு":</string>
+    <string name="appcenter_size">"அளவு":</string>
+</resources>

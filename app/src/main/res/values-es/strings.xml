@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="install_records">Registros de instalación</string>
+    <string name="install_complete">Instalación exitosa</string>
+    <string name="install_app">Instalar</string>
+    <string name="share">Compartir</string>
+    <string name="settings">"Configuración"</string>
+    <string name="no_task">Sin misión</string>
+    <string name="uninstall">"Desinstalar..."</string>
+    <string name="uninstalling">Desinstalando</string>
+    <string name="check_update">Buscar actualizaciones</string>
+    <string name="installed_app_update">Actualizar aplicación</string>
+    <string name="app_manager">Administrador de aplicaciones</string>
+    <string name="app_detail">"Información de la aplicación"</string>
+
+    <string name="appcenter_request_fail">Error al cargar. Vuelva a intentarlo más tarde.</string>
+    <string name="appcenter_open_text">Abrir</string>
+    <string name="missing_title">Sin nombre</string>
+    <string name="appcenter_appcenter_update_text">Actualizar</string>
+    <string name="appcenter_apps_update_operation_ignore">"Ignorar"</string>
+    <string name="appcenter_apps_update_see_all">Ver todo</string>
+    <string name="appcenter_search_box_default_content">"Buscar"</string>
+    <string name="appcenter_search_no_result_text">No hay contenido relacionado</string>
+    <string name="appcenter_search_no_more_tip">No hay más aplicaciones</string>
+    <string name="appcenter_apps_update_go">"Ir"</string>
+    <string name="appcenter_delete_history_all">"Borrar todo"</string>
+    <string name="appcenter_apps_update_no_update_app_prompt">¡Todas las aplicaciones se han actualizado a la última versión, sigue adelante!</string>
+    <string name="appcenter_apps_update_refresh">"Actualizar"</string>
+    <string name="installing">"Instalando"</string>
+    <string name="is_new_version">¡Ultima versión!</string>
+    <string name="warn_search_no_content">El contenido de la búsqueda no puede estar vacío</string>
+
+    <string name="appcenter_download_text">"Descargar"</string>
+    <string name="download_manager">Adminsitrador de descargas</string>
+    <string name="downloaded_group_title">Terminado</string>
+    <string name="download_complete">Descarga completa.</string>
+    <string name="download_status_downloading">"Descargando..."</string>
+    <string name="download_status_pause">"Pausar"</string>
+    <string name="download_status_init">Prepárese para descargar</string>
+
+    <string name="download_continue">"Continuar"</string>
+    <string name="download_error">Error de descarga</string>
+    <string name="cancel">Cancelar</string>
+    <string name="ok">"Confirmar"</string>
+    <string name="clear_task_records">Eliminar registros</string>
+    <string name="appcenter_no_network">Red no disponible</string>
+    <string name="invaild_banner_link">Enlace no válido</string>
+
+    <string name="get_update_msg">Obteniendo información de actualización</string>
+    <string name="get_new_version">Se detectó una nueva versión, ¿actualizar?</string>
+    <string name="install_fail">Error de instalación</string>
+    <string name="more">Más</string>
+    <string name="no_app_exist">"Ninguna aplicación"</string>
+    <string name="unknow">"Desconocida"</string>
+    <string name="uninstall_or_not">¿Deseas desmontar esta aplicación?</string>
+    <string name="task_downloading">La tarea de descarga existió</string>
+
+    <string name="developer">Desarrollador:</string>
+    <string name="task_exist">La última versión se ha descargado</string>
+    <string name="desc_short">Introducción</string>
+    <string name="appcenter_play">Abrir</string>
+    <string name="appcenter_version">"Versión:"</string>
+    <string name="appcenter_size">"Tamaño:"</string>
+</resources>

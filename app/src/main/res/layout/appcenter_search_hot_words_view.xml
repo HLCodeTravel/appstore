@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none" >
+
+    <RelativeLayout
+        android:id="@+id/search_hot_words_page_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/appcenter_search_page_bg" >
+
+        <RelativeLayout
+            android:id="@+id/history_records_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <net.bat.store.ux.common.view.ScrollListView
+                android:id="@+id/search_history_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/appcenter_search_page_bg"
+                android:divider="#00000000"
+                android:dividerHeight="0dp"
+                android:fadingEdge="none" />
+
+            <View
+                android:id="@+id/history_between_delete_btn_line_view"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_below="@id/search_history_list"
+                android:background="#c5c5c5" />
+
+            <Button
+                android:id="@+id/delete_all_history_btn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/appcenter_search_hotwords_history_item_height"
+                android:layout_below="@id/history_between_delete_btn_line_view"
+                android:background="@drawable/appcenter_search_delete_history_btn_bg_selector"
+                android:text="@string/appcenter_delete_history_all"
+                android:textColor="#525252"
+                android:textAllCaps="false"
+                android:textSize="14sp"/>
+
+            <View
+                android:id="@+id/bottom_line"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_below="@id/delete_all_history_btn"
+                android:background="#c5c5c5" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</ScrollView>

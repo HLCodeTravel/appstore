@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="install_records">Rekodi ya usakinishaji</string>
+    <string name="install_complete">Usakinishaji umefanikiwa</string>
+    <string name="install_app">Sakinisha</string>
+    <string name="share">Gawiza</string>
+    <string name="settings">Mipangilio</string>
+    <string name="no_task">Hakuna miseni</string>
+    <string name="uninstall">Sakinua</string>
+    <string name="uninstalling">Inasakinua</string>
+    <string name="check_update">Inanaangalia visasisho</string>
+    <string name="installed_app_update">Sasisho la programu</string>
+    <string name="app_manager">Kisimamizi cha programu</string>
+    <string name="app_detail">Tarifa ya programu</string>
+
+    <string name="appcenter_request_fail">Haijafanikiwa kupakia, jaribu tena badaye</string>
+    <string name="appcenter_open_text">Fungua</string>
+    <string name="missing_title">Haina jina</string>
+    <string name="appcenter_appcenter_update_text">Sasisha</string>
+    <string name="appcenter_apps_update_operation_ignore">Puuza</string>
+    <string name="appcenter_apps_update_see_all">Angalia zote</string>
+    <string name="appcenter_search_box_default_content">Tafuta</string>
+    <string name="appcenter_search_no_result_text">Hakuna maudhui yanao husiana</string>
+    <string name="appcenter_search_no_more_tip">Hakuna programu zaidi</string>
+    <string name="appcenter_apps_update_go">Nenda</string>
+    <string name="appcenter_delete_history_all">Safisha zote</string>
+    <string name="appcenter_apps_update_no_update_app_prompt">Programu zote zimesasishwa kwa toleo jipya, Endelea tu!</string>
+    <string name="appcenter_apps_update_refresh">Onyesha upya</string>
+    <string name="installing">Inasakinisha</string>
+    <string name="is_new_version">Toleo jipya!</string>
+    <string name="warn_search_no_content">Maudhui yanayotafutwa hayawezi kuwa matupu</string>
+
+    <string name="appcenter_download_text">Pakua</string>
+    <string name="download_manager">Kisimamizi cha upakuzi</string>
+    <string name="downloaded_group_title">Kamilika</string>
+    <string name="download_complete">Upakuzi umekamilika</string>
+    <string name="download_status_downloading">Inapakua</string>
+    <string name="download_status_pause">Sitisha kwa muda</string>
+    <string name="download_status_init">Inatayarisha upakuzi</string>
+
+    <string name="download_continue">Endelea</string>
+    <string name="download_error">Upakuzi haujafanikiwa</string>
+    <string name="cancel">Ghairi</string>
+    <string name="ok">Hakikisha</string>
+    <string name="clear_task_records">Futa rekodi</string>
+    <string name="appcenter_no_network">Mtandao haupatikanai</string>
+    <string name="invaild_banner_link">Kiungo batli</string>
+
+    <string name="get_update_msg">Pata tarifa ya sasisho</string>
+    <string name="get_new_version">Toleo jipya limepatikana ,je, utasasisha?</string>
+    <string name="install_fail">Usakinishaji haujafanikiwa</string>
+    <string name="more">Zaidi</string>
+    <string name="no_app_exist">Hakuna programu</string>
+    <string name="unknow">Isiyojulikana</string>
+    <string name="uninstall_or_not">Je, utabandua programu hii?</string>
+    <string name="task_downloading">Shughuli ya upakuzi imefungika</string>
+
+    <string name="developer">Mhandisi</string>
+    <string name="task_exist">Toleo jipya limepakuliwa</string>
+    <string name="desc_short">Utambulishaji</string>
+    <string name="appcenter_play">Fungua</string>
+    <string name="appcenter_version">Toleo</string>
+    <string name="appcenter_size">Ukubwa</string>
+</resources>

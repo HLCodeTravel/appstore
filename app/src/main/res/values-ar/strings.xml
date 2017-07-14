@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="install_records">سجلات التثبيت</string>
+    <string name="install_complete">تم التثبيت بنجاح</string>
+    <string name="install_app">تثبيت</string>
+    <string name="share">مشاركة</string>
+    <string name="settings">الإعدادات </string>
+    <string name="no_task">لا يوجد مهام</string>
+    <string name="uninstall">إلغاء التثبيت</string>
+    <string name="uninstalling">جارٍ إلغاء التثبيت</string>
+    <string name="check_update">التحقق من وجود تحديثات</string>
+    <string name="installed_app_update">تحديث التطبيق</string>
+    <string name="app_manager">مدير التطبيق</string>
+    <string name="app_detail">معلومات عن التطبيق</string>
+
+    <string name="appcenter_request_fail">فشل التحميل، قم بإعادة المحاولة مجددًا</string>
+    <string name="appcenter_open_text">فتح</string>
+    <string name="missing_title">غير مسمّى</string>
+    <string name="appcenter_appcenter_update_text">تحديث</string>
+    <string name="appcenter_apps_update_operation_ignore">تجاهل</string>
+    <string name="appcenter_apps_update_see_all">عرض الكل</string>
+    <string name="appcenter_search_box_default_content">بحث</string>
+    <string name="appcenter_search_no_result_text">لا يوجد محتوى ذات صلة</string>
+    <string name="appcenter_search_no_more_tip">لا يوجد تطبيقات أخرى</string>
+    <string name="appcenter_apps_update_go">الذهاب</string>
+    <string name="appcenter_delete_history_all">مسح الكل</string>
+    <string name="appcenter_apps_update_no_update_app_prompt">تم تحديث كافة التطبيقات لآخر إصدار، استمر!</string>
+    <string name="appcenter_apps_update_refresh">إعادة تحديث</string>
+    <string name="installing">جارٍ التثبيت</string>
+    <string name="is_new_version">آخر إصدار!</string>
+    <string name="warn_search_no_content">لا يمكن أن يكون محتوى البحث فارغًا</string>
+
+    <string name="appcenter_download_text">تنزيل</string>
+    <string name="download_manager">مدير التنزيل</string>
+    <string name="downloaded_group_title">اكتمل</string>
+    <string name="download_complete">اكتمل التنزيل</string>
+    <string name="download_status_downloading">جارٍ التنزيل</string>
+    <string name="download_status_pause">إيقاف مؤقت</string>
+    <string name="download_status_init">الاستعداد للتنزيل</string>
+
+    <string name="download_continue">متابعة</string>
+    <string name="download_error">فشل التنزيل</string>
+    <string name="cancel">إلغاء</string>
+    <string name="ok">تأكيد</string>
+    <string name="clear_task_records">حذف السجلات</string>
+    <string name="appcenter_no_network">لا يوجد شبكة</string>
+    <string name="invaild_banner_link">رابط غير صالح</string>
+
+    <string name="get_update_msg">جارٍ الحصول على معلومات التحديث</string>
+    <string name="get_new_version">تم اكتشاف إصدار جديد، تحديث؟</string>
+    <string name="install_fail">فشل التثبيت</string>
+    <string name="more">المزيد</string>
+    <string name="no_app_exist">لا يوجد تطبيقات</string>
+    <string name="unknow">غير معروف</string>
+    <string name="uninstall_or_not">إلغاء تحميل هذا التطبيق؟</string>
+    <string name="task_downloading">المهمة التي تم تنزيلها موجودة </string>
+
+    <string name="developer">المطور</string>
+    <string name="task_exist">تم تنزيل آخر إصدار</string>
+    <string name="desc_short">مقدمة</string>
+    <string name="appcenter_play">فتح</string>
+    <string name="appcenter_version">الإصدار</string>
+    <string name="appcenter_size">الحجم</string>
+</resources>

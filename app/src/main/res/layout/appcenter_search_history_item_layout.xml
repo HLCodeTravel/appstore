@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@drawable/appcenter_search_delete_history_btn_bg_selector"> 
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/appcenter_search_hotwords_history_item_height" >
+        
+        <ImageView
+            android:id="@+id/history_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="25dp"
+            android:background="@drawable/appcenter_search_history_icon" />
+
+        <RelativeLayout
+            android:id="@+id/delete_history_layout"
+            android:layout_width="@dimen/appcenter_search_hotwords_history_item_height"
+            android:layout_height="@dimen/appcenter_search_hotwords_history_item_height"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/appcenter_search_delete_history_item_bg_selector" >
+
+            <ImageView
+                android:id="@+id/delete_history_icon"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/appcenter_delete_search_history_icon" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/history_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="25dp"
+            android:layout_toEndOf="@id/history_icon"
+            android:layout_toStartOf="@id/delete_history_layout"
+            android:singleLine="true"
+            android:textColor="#525252"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Aha</string>
+
+    <string name="install_records">Bản ghi cài đặt</string>
+    <string name="install_app">Cài</string>
+    <string name="share">Chia sẻ</string>
+    <string name="settings">Cài đặt</string>
+    <string name="no_task">Không có nhiệm vụ</string>
+    <string name="uninstall">Gỡ cài đặt</string>
+    <string name="uninstalling">Đang gỡ cài đặt</string>
+    <string name="check_update">Kiểm tra cập nhật</string>
+    <string name="installed_app_update">Cập nhật ứng dụng</string>
+    <string name="app_manager">Quản lý ứng dụng</string>
+    <string name="app_detail">"Thông tin về ứng dụng"</string>
+
+    <string name="appcenter_no_network">Không có mạng</string>
+    <string name="appcenter_request_fail">Không thể tải, hãy thử lại sau.</string>
+    <string name="appcenter_open_text">Mở</string>
+    <string name="appcenter_appcenter_update_text">Làm mới</string>
+    <string name="appcenter_apps_update_operation_ignore">Bỏ qua</string>
+    <string name="appcenter_apps_update_see_all">Xem tất cả</string>
+    <string name="clear_task_records">Xóa bản ghi</string>
+    <string name="appcenter_search_box_default_content">Tìm kiếm</string>
+    <string name="appcenter_search_no_result_text">Không có nội dung liên quan</string>
+    <string name="appcenter_search_no_more_tip">Không còn ứng dụng nữa</string>
+    <string name="appcenter_apps_update_go">Đến</string>
+    <string name="appcenter_delete_history_all">Xóa tất cả</string>
+    <string name="appcenter_apps_update_no_update_app_prompt">Tất cả ứng dụng đã được cập nhật lên phiên bản mới nhất, hãy tiếp tục!</string>
+    <string name="appcenter_apps_update_refresh">Làm mới</string>
+    <string name="installing">Đang cài đặt</string>
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+    <string name="appcenter_download_text">Tải về</string>
+    <string name="download_manager">Quản lý tải về</string>
+    <string name="downloaded_group_title">Đã hoàn thành</string>
+    <string name="download_complete">Tải về hoàn tất.</string>
+    <string name="download_status_downloading">Đang tải về</string>
+    <string name="download_status_pause">Tạm dừng</string>
+    <string name="download_status_init">Chuẩn bị tải về</string>
+    <string name="download_status_stop">Tạm dừng</string>
+    <string name="download_continue">Tiếp tục</string>
+    <string name="download_error">Tải về thất bại</string>
+    <string name="cancel">Hủy</string>
+    <string name="ok">Xác nhận</string>
+    <string name="install_complete">Cài đặt thành công</string>
+    <string name="download_speed">%2$s KB/S</string>
+    <string name="download_list_action">com.zxt.download2.action</string>
+    <string name="warn_search_no_content">Nội dung tìm kiếm không thể để trống</string>
+    <string name="invaild_banner_link">Liên kết không hợp lệ</string>
+    <string name="is_new_version">Phiên bản mới nhất!</string>
+    <string name="missing_title">Chưa đặt tên</string>
+    <string name="get_update_msg">Đang lấy thông tin cập nhật\u2026</string>
+    <string name="get_new_version">Đã phát hiện phiên bản mới, cập nhật?</string>
+    <string name="install_fail">Cài đặt thất bại</string>
+    <string name="more">Thêm</string>
+    <string name="no_app_exist">Không có ứng dụng!</string>
+    <string name="unknow">Không xác định</string>
+    <string name="uninstall_or_not">Hủy ứng dụng này?</string>
+    <string name="task_downloading">Nhiệm vụ tải về đã tồn tại</string>
+
+    <string name="developer">Nhà phát triển:</string>
+    <string name="task_exist">Phiên bản mới nhất đã được tải về!</string>
+
+    <string name="desc_short">Brief</string>
+    <string name="appcenter_play">Play</string>
+    <string name="appcenter_version">Phiên bản:</string>
+    <string name="appcenter_size">Cỡ:</string>
+</resources>

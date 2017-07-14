@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AppCenterTouchMaskLayout">
+        <attr name="AppCenterMaskDrawable" format="reference|color"></attr>
+    </declare-styleable>
+
+    <!--圆形进度条-->
+    <declare-styleable name="RoundProgressBar">
+        <attr name="roundColor" format="color"/>
+        <attr name="roundProgressColor" format="color"/>
+        <attr name="roundWidth" format="dimension"></attr>
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="max" format="integer"></attr>
+        <attr name="textIsDisplayable" format="boolean"></attr>
+        <attr name="style">
+            <enum name="STROKE" value="0"></enum>
+            <enum name="FILL" value="1"></enum>
+        </attr>
+    </declare-styleable>
+
+
+     <declare-styleable name="AppCenterProportionLayout">
+        <attr name="AppCenterproportion" format="float" />
+        <attr name="AppCenterboundcolor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="BottomBarTab">
+        <attr name="selectedIcon" format="reference" />
+        <attr name="unselectedIcon" format="reference" />
+        <attr name="selectedColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="StyleRatingBar">
+        <attr name="starInterval" format="dimension" />
+        <attr name="rating" format="float" />
+        <attr name="starSize" format="dimension" />
+        <attr name="starCount" format="integer" />
+        <attr name="starEmptyImg" format="reference" />
+        <attr name="starFillImg" format="reference" />
+        <attr name="controllable" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ConvenientBanner">
+        <attr name="canLoop" format="boolean" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Aha</string>
+
+    <string name="install_records">Installation records</string>
+    <string name="install_app">Install</string>
+    <string name="share">Share</string>
+    <string name="settings">Settings</string>
+    <string name="no_task">No mission</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="uninstalling">Uninstalling</string>
+    <string name="check_update">Check for updates</string>
+    <string name="installed_app_update">App update</string>
+    <string name="app_manager">App manager</string>
+    <string name="app_detail">App info</string>
+
+    <string name="appcenter_no_network">Network unavailable</string>
+    <string name="appcenter_request_fail">Failed to load, try again later.</string>
+    <string name="appcenter_open_text">Open</string>
+    <string name="appcenter_appcenter_update_text">Update</string>
+    <string name="appcenter_apps_update_operation_ignore">Ignore</string>
+    <string name="appcenter_apps_update_see_all">View all</string>
+    <string name="clear_task_records">Delete records</string>
+    <string name="appcenter_search_box_default_content">Search</string>
+    <string name="appcenter_search_no_result_text">No related content</string>
+    <string name="appcenter_search_no_more_tip">No more apps</string>
+    <string name="appcenter_apps_update_go">Go</string>
+    <string name="appcenter_delete_history_all">Clear all</string>
+    <string name="appcenter_apps_update_no_update_app_prompt">All apps have been updated to the latest version, keep going on!</string>
+    <string name="appcenter_apps_update_refresh">Refresh</string>
+    <string name="installing">Installing</string>
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+    <string name="appcenter_download_text">Download</string>
+    <string name="download_manager">Download manager</string>
+    <string name="downloaded_group_title">Completed</string>
+    <string name="download_complete">Download completed</string>
+    <string name="download_status_downloading">Downloading</string>
+    <string name="download_status_pause">Pause</string>
+    <string name="download_status_init">Waiting</string>
+    <string name="download_status_stop">Pause</string>
+    <string name="download_continue">Continue</string>
+    <string name="download_error">Download failure</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="install_complete">Install Success</string>
+    <string name="download_speed">%2$s KB/S</string>
+    <string name="download_list_action">com.zxt.download2.action</string>
+    <string name="warn_search_no_content">Search content cannot be empty</string>
+    <string name="invaild_banner_link">Invalid link</string>
+    <string name="is_new_version">Latest version!</string>
+    <string name="missing_title">Unnamed</string>
+    <string name="get_update_msg">Obtaining update information\u2026</string>
+    <string name="get_new_version">New version detected,whether to update</string>
+    <string name="install_fail">Installation failure</string>
+    <string name="more">More</string>
+    <string name="no_app_exist">No apps</string>
+    <string name="unknow">Unknow</string>
+    <string name="uninstall_or_not">Unmount this app?</string>
+    <string name="task_downloading">Download task existed</string>
+
+    <string name="developer">Developer:</string>
+    <string name="task_exist">The latest version is downloaded</string>
+
+    <string name="desc_short">Introduction</string>
+    <string name="appcenter_play">Play</string>
+    <string name="appcenter_version">Version:</string>
+    <string name="appcenter_size">Size:</string>
+    <string name="not_supprt_game">Don\'t support H5GameZip</string>
+</resources>

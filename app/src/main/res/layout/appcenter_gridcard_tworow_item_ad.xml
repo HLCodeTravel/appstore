@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.iad.core.TNativeAdView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginStart="2dp"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="@dimen/card_corner_radius"
+        app:cardElevation="@dimen/card_elevation">
+
+        <net.bat.store.widget.TouchMaskRelativeLayout
+            android:id="@+id/item_parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:descendantFocusability="blocksDescendants"
+            android:layout_marginBottom="@dimen/appcenter_card_tworow_appicon_margintop"
+            app:AppCenterMaskDrawable="@drawable/appcenter_recommend_banner_press">
+
+            <RelativeLayout
+                android:id="@+id/app_icon_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true">
+
+                <ImageView
+                    android:id="@+id/iv_app_icon"
+                    android:layout_width="@dimen/appcenter_card_body_appicon_width"
+                    android:layout_height="@dimen/appcenter_card_body_appicon_height"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/appcenter_card_tworow_appicon_margintop"
+                    android:layout_marginStart="@dimen/appcenter_card_tworow_appicon_margintop"
+                    android:layout_marginEnd="@dimen/appcenter_card_tworow_appicon_margintop"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/icon_bg"
+                    android:src="@drawable/image_default"/>
+                <ImageView
+                    android:id="@+id/iv_app_top_bg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:src="@mipmap/appcenter_app_top_normal_right"
+                    android:visibility="gone"
+                    />
+                <TextView
+                    android:id="@+id/app_top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:background="@mipmap/appcenter_app_top_two"
+                    />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/app_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/app_icon_top"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="@dimen/appcenter_card_tworow_appicon_margintop"
+                android:layout_marginEnd="@dimen/appcenter_card_tworow_appicon_margintop"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="4dp"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:text="Facebook"
+                android:textColor="@color/appcenter_gridcard_header_texttitle_color"
+                android:textSize="@dimen/appcenter_icon_name_size"/>
+
+            <TextView
+                android:id="@+id/ad_type"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/appcenter_card_body_downnum_height"
+                android:layout_below="@id/app_name"
+                android:visibility="gone"
+                android:layout_centerHorizontal="true"
+                android:drawablePadding="@dimen/appcenter_card_body_downnum_drawablepadding"
+                android:drawableStart="@mipmap/ad_icon"
+                android:includeFontPadding="false"
+                android:text="AD"
+                android:textColor="@color/appcenter_desc_text_color"
+                android:textSize="@dimen/appcenter_desc_text_size"/>
+
+
+            <Button
+                android:id="@+id/app_install"
+                android:layout_width="@dimen/appcenter_card_body_downbtn_width"
+                android:layout_height="@dimen/appcenter_card_body_downbtn_height"
+                android:background="@drawable/app_detail_btn"
+                android:text="@string/appcenter_download_text"
+                android:textSize="12sp"
+                android:textAllCaps="false"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/ad_type"
+                android:layout_marginStart="@dimen/appcenter_card_tworow_appicon_margintop"
+                android:layout_marginEnd="@dimen/appcenter_card_tworow_appicon_margintop"
+                android:textColor="@color/appcenter_free_normal_color"
+                android:layout_marginTop="6dp"
+                android:fontFamily="sans-serif-light"/>
+
+        </net.bat.store.widget.TouchMaskRelativeLayout>
+    </android.support.v7.widget.CardView>
+</com.transsion.iad.core.TNativeAdView>

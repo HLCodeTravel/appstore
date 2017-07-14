@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Aha</string>
+
+    <string name="install_records">Talaan ng mga installation</string>
+    <string name="install_app">I-install</string>
+    <string name="share">Ibahagi</string>
+    <string name="settings">"Mga Setting"</string>
+    <string name="no_task">Walang misyon</string>
+    <string name="uninstall">"I-uninstall"</string>
+    <string name="uninstalling">Uninstalling</string>
+    <string name="check_update">Suriin para sa mga update</string>
+    <string name="installed_app_update">App i-update</string>
+    <string name="app_manager">App manager</string>
+    <string name="app_detail">"Impormasyon ng app"</string>
+
+    <string name="appcenter_no_network">Walang network</string>
+    <string name="appcenter_request_fail">Nabigong ma-laod, subukang muli mamaya.</string>
+    <string name="appcenter_open_text">Buksan</string>
+    <string name="appcenter_appcenter_update_text">"I-update"</string>
+    <string name="appcenter_apps_update_operation_ignore">Huwag Pansinin</string>
+    <string name="appcenter_apps_update_see_all">Tingnan lahat</string>
+    <string name="clear_task_records">Burahin lahat ng records</string>
+    <string name="appcenter_search_box_default_content">"Hanapin"</string>
+    <string name="appcenter_search_no_result_text">Walang ganitong nilalaman</string>
+    <string name="appcenter_search_no_more_tip">Wala ng mga apps</string>
+    <string name="appcenter_apps_update_go">Pumunta</string>
+    <string name="appcenter_delete_history_all">"I-clear lahat"</string>
+    <string name="appcenter_apps_update_no_update_app_prompt">Ang lahat ng apps ay updated sa pinakabagong bersyon, ipagpatuloy lamang!</string>
+    <string name="appcenter_apps_update_refresh">"I-refresh"</string>
+    <string name="installing">Nag-i-install</string>
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+    <string name="appcenter_download_text">I-download</string>
+    <string name="download_manager">Download manager</string>
+    <string name="downloaded_group_title">Nakumpleto</string>
+    <string name="download_complete">Nakumpleto ang download.</string>
+    <string name="download_status_downloading">Nagda-download</string>
+    <string name="download_status_pause">"I-pause"</string>
+    <string name="download_status_init">Ihanda para sa download</string>
+    <string name="download_status_stop">"I-pause"</string>
+    <string name="download_continue">Magpatuloy</string>
+    <string name="download_error">Nabigong ma-download</string>
+    <string name="cancel">Kanselahin</string>
+    <string name="ok">"Kumpirmahin"</string>
+    <string name="install_complete">Matagumpay ang installation</string>
+    <string name="download_speed">%2$s KB/S</string>
+    <string name="download_list_action">com.zxt.download2.action</string>
+    <string name="warn_search_no_content">Ang Search ay di dapat walang nilalaman</string>
+    <string name="invaild_banner_link">Hindi tama ang link</string>
+    <string name="is_new_version">Pinakabagong bersyon!</string>
+    <string name="missing_title">Walang pangalang                                                                              </string>
+    <string name="get_update_msg">Obtaining update information\u2026</string>
+    <string name="get_new_version">New version detected,whether to update</string>
+    <string name="install_fail">Nabigong ma-download</string>
+    <string name="more">Higit pa</string>
+    <string name="no_app_exist">Walang mga app!</string>
+    <string name="unknow">Hindi kilala</string>
+    <string name="uninstall_or_not">I-unmount ang app na ito?</string>
+    <string name="task_downloading">Mayroong download task</string>
+
+    <string name="developer">Developer:</string>
+    <string name="task_exist">Ang pinakabagong bersyon ay nadownload!</string>
+
+    <string name="desc_short">Brief</string>
+    <string name="appcenter_play">Play</string>
+    <string name="appcenter_version">"Bersyon":</string>
+    <string name="appcenter_size">"Laki":</string>
+</resources>

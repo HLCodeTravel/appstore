@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/web_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appcenter_common_bg_color_grey">
+
+    <ImageView
+        android:id="@+id/loading"
+        android:scaleType="fitCenter"
+        android:layout_centerInParent="true"
+        android:layout_width="@dimen/appcenter_loading_progress_big_size"
+        android:layout_height="@dimen/appcenter_loading_progress_big_size"
+        android:visibility="gone"/>
+
+</RelativeLayout>

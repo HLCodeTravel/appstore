@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 产品列表项 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="6dp"
+    android:layout_marginStart="6dp"
+    android:layout_marginTop="6dp"
+    android:background="@drawable/appcenter_item_selector"
+    android:descendantFocusability="blocksDescendants">
+
+    <!-- 应用icon -->
+    <ImageView
+        android:id="@+id/iv_app_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/dimen_10dp"
+        android:src="@drawable/image_default" />
+
+    <TextView
+        android:id="@+id/tv_uninstall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="@dimen/appcenter_state_btn_width"
+        android:padding="@dimen/dimen_8dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="@dimen/dimen_28dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="@dimen/dimen_28dp"
+        android:background="@drawable/app_detail_btn"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/uninstall"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/appcenter_state_btn_text_size" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="11dp"
+        android:layout_toEndOf="@id/iv_app_icon"
+        android:layout_toStartOf="@id/tv_uninstall"
+        android:orientation="vertical">
+        <!-- 应用的名称 -->
+        <TextView
+            android:id="@+id/tv_app_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:singleLine="true"
+            android:textColor="#1a1a1a"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginEnd="4dp"
+                android:src="@drawable/appcenter_recommend_card_filesize" />
+            <!-- 应用的大小 -->
+
+            <TextView
+                android:id="@+id/tv_app_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="#808080"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

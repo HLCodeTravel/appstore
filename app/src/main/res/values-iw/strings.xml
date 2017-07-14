@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="install_records">רשומות התקנה</string>
+    <string name="install_complete">הצלחת התקנה</string>
+    <string name="install_app">התקן</string>
+    <string name="share">שיתוף</string>
+    <string name="settings">"הגדרות"</string>
+    <string name="no_task">אין משימה</string>
+    <string name="uninstall">"הסר התקנה"</string>
+    <string name="uninstalling">לא מתקין</string>
+    <string name="check_update">בדוק לעידכונים</string>
+    <string name="installed_app_update">עדכון אפליקציה</string>
+    <string name="app_manager">מנהל אפליקציה</string>
+    <string name="app_detail">"פרטי אפליקציה"</string>
+
+    <string name="appcenter_request_fail">כשל בטעינה, נא לנסות מאוחר יותר</string>
+    <string name="appcenter_open_text">פתח</string>
+    <string name="missing_title">ללא שם</string>
+    <string name="appcenter_appcenter_update_text">"עדכון"</string>
+    <string name="appcenter_apps_update_operation_ignore">התעלם</string>
+    <string name="appcenter_apps_update_see_all">הצג הכל</string>
+    <string name="appcenter_search_box_default_content">"חפש"</string>
+    <string name="appcenter_search_no_result_text">אין תוכן קשור</string>
+    <string name="appcenter_search_no_more_tip">אין עוד יישומים</string>
+    <string name="appcenter_apps_update_go">בצע</string>
+    <string name="appcenter_delete_history_all">"נקה הכל"</string>
+    <string name="appcenter_apps_update_no_update_app_prompt">ל היישומים עודכנו לגרסה האחרונה, המשך!</string>
+    <string name="appcenter_apps_update_refresh">"רענן"</string>
+    <string name="installing">מתקין</string>
+    <string name="is_new_version">הגרסה האחרונה!</string>
+    <string name="warn_search_no_content">חיפוש אינו יכול להיות ריק</string>
+
+    <string name="appcenter_download_text">הורד</string>
+    <string name="download_manager">מנהלל הורדות</string>
+    <string name="downloaded_group_title">הושלם</string>
+    <string name="download_complete">ההורדה הושלמה.</string>
+    <string name="download_status_downloading">מוריד</string>
+    <string name="download_status_pause">"השהה"</string>
+    <string name="download_status_init">הייה מוכן להורדה</string>
+
+    <string name="download_continue">המשך</string>
+    <string name="download_error">כשל בהורדה</string>
+    <string name="cancel">ביטול</string>
+    <string name="ok">"אשר"</string>
+    <string name="clear_task_records">מחק רשומות</string>
+    <string name="appcenter_no_network">רשת לא זמינה</string>
+    <string name="invaild_banner_link">קישור בלתי תקין</string>
+
+    <string name="get_update_msg">מקבל מידע עדכון</string>
+    <string name="get_new_version">התגלתה גרסה חדשה, האם לעדכן?</string>
+    <string name="install_fail">כשל בהתקנה</string>
+    <string name="more">עוד</string>
+    <string name="no_app_exist">אין אפליקציות</string>
+    <string name="unknow">לא ידוע</string>
+    <string name="uninstall_or_not">להסיר את היישום הזה?</string>
+    <string name="task_downloading">מישמת ההורדה הייתה קיימת</string>
+
+    <string name="developer">מפתח</string>
+    <string name="task_exist">הגרסה האחרונה בתהליך הורדה</string>
+    <string name="desc_short">מבוא</string>
+    <string name="appcenter_play">פתח</string>
+    <string name="appcenter_version">"גרסה"</string>
+    <string name="appcenter_size">"גודל"</string>
+</resources>

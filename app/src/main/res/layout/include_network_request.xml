@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/load_progress"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_width="@dimen/appcenter_loading_progress_big_size"
+        android:layout_height="@dimen/appcenter_loading_progress_big_size" />
+
+    <include
+        android:id="@+id/no_network"
+        layout="@layout/appcenter_no_network_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <include
+    android:id="@+id/request_fail"
+    layout="@layout/appcenter_request_fail_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:visibility="gone" />
+
+</merge>
+
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="@color/appcenter_main_fragment_backgroud"-->
+    <!--&gt;-->
+    <!--&lt;!&ndash; 无网络 &ndash;&gt;-->
+    <!--<include-->
+        <!--android:id="@+id/no_network"-->
+        <!--layout="@layout/appcenter_no_network_layout"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:visibility="gone" />-->
+
+    <!--&lt;!&ndash; 请求失败 &ndash;&gt;-->
+    <!--<include-->
+        <!--android:id="@+id/request_fail"-->
+        <!--layout="@layout/appcenter_request_fail_layout"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:visibility="gone" />-->
+
+    <!--&lt;!&ndash; 进度圈，视需求而定看是否需要进度圈 &ndash;&gt;-->
+    <!--&lt;!&ndash;<include&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/load_progress"&ndash;&gt;-->
+    <!--&lt;!&ndash;layout="@layout/appcenter_loading_progress_big"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_centerInParent="true" />&ndash;&gt;-->
+    <!--<ImageView-->
+        <!--android:id="@+id/load_progress"-->
+        <!--android:scaleType="fitCenter"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:layout_width="@dimen/appcenter_loading_progress_big_size"-->
+        <!--android:layout_height="@dimen/appcenter_loading_progress_big_size" />-->
+<!--</RelativeLayout>-->

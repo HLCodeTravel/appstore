@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<net.bat.store.widget.TouchMaskRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_parent"
+    android:layout_width="@dimen/appcenter_horizontalcard_item_width"
+    android:layout_height="@dimen/appcenter_horizontalcard_item_height"
+    android:layout_marginStart="@dimen/appcenter_horizontalcard_item_marginleft"
+    android:background="@drawable/appcenter_horizontal_scroll_card_corner_shape_selector"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center_horizontal"
+    android:paddingBottom="@dimen/appcenter_horizontalcard_item_paddingtop"
+    android:paddingStart="@dimen/appcenter_horizontalcard_item_paddingleft"
+    android:paddingEnd="@dimen/appcenter_horizontalcard_item_paddingleft"
+    android:paddingTop="@dimen/appcenter_horizontalcard_item_paddingtop">
+
+    <ImageView
+        android:id="@+id/app_icon"
+        android:layout_width="@dimen/appcenter_horizontalcard_item_appicon_width"
+        android:layout_height="@dimen/appcenter_horizontalcard_item_appicon_width"
+        android:background="@drawable/appcenter_horizontal_scroll_card_corner_shape_selector"
+        android:scaleType="fitXY"
+        android:src="@drawable/image_default" />
+
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/app_icon"
+        android:layout_alignEnd="@id/app_icon"
+        android:layout_below="@id/app_icon"
+        android:layout_marginTop="@dimen/appcenter_horizontalcard_item_apptitle_margintop"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:lines="2"
+        android:textColor="@color/appcenter_horizontalscrollcard_app_name_text"
+        android:textSize="@dimen/appcenter_horizontalcard_item_apptitle_size" />
+
+    <RatingBar
+        android:id="@+id/app_score"
+        style="@style/appcenter_custom_rating_bar_style"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/appcenter_horizontalcard_item_rating_width"
+        android:layout_below="@id/app_title"
+        android:layout_marginTop="2dp"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:rating="5"
+        android:stepSize="0.1" />
+
+</net.bat.store.widget.TouchMaskRelativeLayout>

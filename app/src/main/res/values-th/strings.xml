@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="install_records">บันทึกการติดตั้ง</string>
+    <string name="install_complete">การติดตั้งสำเร็จ</string>
+    <string name="install_app">ติดตั้ง</string>
+    <string name="share">แบ่งปัน</string>
+    <string name="settings">การตั้งค่า</string>
+    <string name="no_task">ไม่มีภารกิจ</string>
+    <string name="uninstall">ถอนการติดตั้ง</string>
+    <string name="uninstalling">ถอนการติดตั้ง</string>
+    <string name="check_update">ตรวจหาอัพเดต</string>
+    <string name="installed_app_update">อัปเดตแอป</string>
+    <string name="app_manager">ข้อมูลแอปพลิเคชัน</string>
+    <string name="app_detail">ข้อมูลแอปพลิเคชัน</string>
+
+    <string name="appcenter_request_fail">ไม่สามารถโหลด ลองใหม่อีกครั้งภายหลัง</string>
+    <string name="appcenter_open_text">เปิด</string>
+    <string name="missing_title">ไม่มีชื่อ</string>
+    <string name="appcenter_appcenter_update_text">อัพเดท</string>
+    <string name="appcenter_apps_update_operation_ignore">ไม่สนใจ</string>
+    <string name="appcenter_apps_update_see_all">ดูทั้งหมด</string>
+    <string name="appcenter_search_box_default_content">ค้นหา</string>
+    <string name="appcenter_search_no_result_text">ไม่มีเนื้อหาที่เกี่ยวข้อง</string>
+    <string name="appcenter_search_no_more_tip">ไม่มีแอพอีก</string>
+    <string name="appcenter_apps_update_go">ไป</string>
+    <string name="appcenter_delete_history_all">ล้างทั้งหมด</string>
+    <string name="appcenter_apps_update_no_update_app_prompt">แอพทั้งหมดได้รับการปรับปรุงเป็นเวอร์ชันล่าสุด ติดตามอัพเดตเสมอ</string>
+    <string name="appcenter_apps_update_refresh">รีเฟรช</string>
+    <string name="installing">กำลังติดตั้ง</string>
+    <string name="is_new_version">เวอร์ชันล่าสุด</string>
+    <string name="warn_search_no_content">การค้นหาเนื้อหาไม่สามารถว่างเปล่า</string>
+
+    <string name="appcenter_download_text">ดาวน์โหลด</string>
+    <string name="download_manager">ตัวจัดการดาวน์โหลด</string>
+    <string name="downloaded_group_title">เสร็จสิ้น</string>
+    <string name="download_complete">ดาวน์โหลดเสร็จสิ้น</string>
+    <string name="download_status_downloading">กำลังดาวน์โหลด</string>
+    <string name="download_status_pause">หยุดชั่วคราว</string>
+    <string name="download_status_init">เตรียมดาวน์โหลด</string>
+
+    <string name="download_continue">ดำเนินการต่อ</string>
+    <string name="download_error">ดาวน์โหลดล้มเหลว</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="ok">ยืนยัน</string>
+    <string name="clear_task_records">ลบบันทึก</string>
+    <string name="appcenter_no_network">เครือข่ายไม่พร้อมใช้งาน</string>
+    <string name="invaild_banner_link">ลิงก์ไม่ถูกต้อง</string>
+
+    <string name="get_update_msg">ขอรับข้อมูลอัพเดต</string>
+    <string name="get_new_version">ตรวจพบเวอร์ชันใหม่ ต้องการอัพเดตหรือไม่</string>
+    <string name="install_fail">การติดตั้งล้มเหลว</string>
+    <string name="more">เพิ่มเติม</string>
+    <string name="no_app_exist">ไม่มีแอป</string>
+    <string name="unknow">ไม่ทราบ</string>
+    <string name="uninstall_or_not">ถอนการติดตั้งแอพนี้</string>
+    <string name="task_downloading">งานการดาวน์โหลดมีอยู่แล้ว</string>
+
+    <string name="developer">นักพัฒนา</string>
+    <string name="task_exist">ดาวน์โหลดเวอร์ชันล่าสุดแล้ว</string>
+    <string name="desc_short">คำนำ</string>
+    <string name="appcenter_play">เปิด</string>
+    <string name="appcenter_version">"เวอร์ชัน"</string>
+    <string name="appcenter_size">ขนาด</string>
+</resources>

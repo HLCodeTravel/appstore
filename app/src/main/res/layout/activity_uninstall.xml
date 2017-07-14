@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/appcenter_main_fragment_backgroud">
+
+    <include
+        android:id="@+id/update_top_bar_area"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/appcenter_top_bar_height"
+        android:layout_alignParentTop="true"
+        layout="@layout/appcenter_category_top_bar" />
+
+
+    <ImageView
+        android:id="@+id/v_loading"
+        android:scaleType="fitCenter"
+        android:layout_centerInParent="true"
+        android:src="@drawable/image_default"
+        android:layout_width="@dimen/appcenter_loading_progress_big_size"
+        android:layout_height="@dimen/appcenter_loading_progress_big_size" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_installed_app_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/update_top_bar_area"
+        android:layout_marginTop="6dp"></android.support.v7.widget.RecyclerView>
+</RelativeLayout>

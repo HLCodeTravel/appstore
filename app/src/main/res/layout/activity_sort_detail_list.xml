@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appcenter_main_fragment_backgroud">
+
+    <include
+        android:id="@+id/update_top_bar_area"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/appcenter_top_bar_height"
+        android:layout_alignParentTop="true"
+        layout="@layout/appcenter_category_top_bar" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_sorts_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/update_top_bar_area"
+        android:headerDividersEnabled="false"
+        android:dividerHeight="10dp"
+        android:cacheColorHint="@android:color/transparent"
+        android:footerDividersEnabled="false"
+        android:divider="@color/appcenter_main_fragment_backgroud"
+        android:paddingTop="6dp"
+        android:paddingStart="6dp"
+        android:paddingEnd="6dp"
+        android:scrollbars="none"
+        android:fadingEdge="none"
+        android:visibility="gone"/>
+
+    <!-- 无网络 -->
+
+    <include
+        android:id="@+id/no_network"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        layout="@layout/appcenter_no_network_layout" />
+
+    <!-- 请求失败 -->
+
+    <include
+        android:id="@+id/request_fail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        layout="@layout/appcenter_request_fail_layout" />
+
+    <!-- 进度圈，视需求而定看是否需要进度圈 -->
+
+    <ImageView
+        android:id="@+id/v_loading"
+        android:scaleType="fitCenter"
+        android:layout_centerInParent="true"
+        android:layout_width="@dimen/appcenter_loading_progress_big_size"
+        android:layout_height="@dimen/appcenter_loading_progress_big_size" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/FabPlus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:scaleType="center"
+        app:borderWidth="0dp"
+        app:fabSize="normal"
+        android:visibility="gone"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        app:backgroundTint="@android:color/transparent"
+        app:rippleColor="@android:color/transparent"
+        app:elevation="0dp"
+        app:pressedTranslationZ="0dp"
+        app:layout_anchorGravity="bottom|end"
+        app:layout_behavior="net.bat.store.widget.floatbutton.ScrollAwareFABBehavior" />
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Aha</string>
+
+    <string name="install_records">ఇన్‌స్టలేషన్ రికార్డులు</string>
+    <string name="install_app">"ఇన్‌స్టాల్ చేయి"</string>
+    <string name="share">భాగస్వామ్యం</string>
+    <string name="settings">"సెట్టింగ్‌లు"</string>
+    <string name="no_task">ఎలాంటి మిషన్ లేదు</string>
+    <string name="uninstall">"అన్ఇన్‌స్టాల్ చేయి"</string>
+    <string name="uninstalling">అన్ఇన్స్టాల్ చేయడం</string>
+    <string name="check_update">అప్‌డేట్‌ల కొరకు చెక్ చేయి</string>
+    <string name="installed_app_update">అనువర్తనం నవీకరణ</string>
+    <string name="app_manager">ఆప్ మేనేజర్</string>
+    <string name="app_detail">"అనువర్తన సమాచారం"</string>
+
+    <string name="appcenter_no_network">నెట్‌వర్క్ లభ్యం కావడం లేదు</string>
+    <string name="appcenter_request_fail">లోడ్ చేయడం విఫలమైంది, తరువాత మళ్లీ ప్రయత్నించండి.</string>
+    <string name="appcenter_open_text">"తెరువు"</string>
+    <string name="appcenter_appcenter_update_text">"నవీకరించు"</string>
+    <string name="appcenter_apps_update_operation_ignore">"విస్మరించు"</string>
+    <string name="appcenter_apps_update_see_all">అన్నింటిని వీక్షించండి</string>
+    <string name="clear_task_records">రికార్డులు డిలీట్ చేయండి</string>
+    <string name="appcenter_search_box_default_content">"శోధించు"</string>
+    <string name="appcenter_search_no_result_text">సంబంధిత కంటెంట్ లేదు</string>
+    <string name="appcenter_search_no_more_tip">మరిన్ని యాప్‌లు లేవు</string>
+    <string name="appcenter_apps_update_go">"వెళ్లు"</string>
+    <string name="appcenter_delete_history_all">"అన్నీ తీసివేయి"</string>
+    <string name="appcenter_apps_update_no_update_app_prompt">అన్ని యాప్‌లు కూడా తాజా వెర్షన్‌కు అప్‌డేట్ చేయబడ్డాయి, దీనిని కొనసాగించండి!</string>
+    <string name="appcenter_apps_update_refresh">రిఫ్రెష్</string>
+    <string name="installing">"ఇన్‌స్టాల్ చేస్తోంది"</string>
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+    <string name="appcenter_download_text">"డౌన్‌లోడ్ చేయి"</string>
+    <string name="download_manager">డౌన్‌లోడ్ మేనేజర్</string>
+    <string name="downloaded_group_title">పూర్తయింది</string>
+    <string name="download_complete">డౌన్‌లోడ్ పూర్తయింది.</string>
+    <string name="download_status_downloading">"డౌన్‌లోడ్ చేస్తోంది"</string>
+    <string name="download_status_pause">"పాజ్ చేయి"</string>
+    <string name="download_status_init">డౌన్‌లోడ్ చేయడానికి సిద్ధమైంది</string>
+    <string name="download_status_stop">"పాజ్ చేయి"</string>
+    <string name="download_continue">కొనసాగించు</string>
+    <string name="download_error">డౌన్‌లోడ్ విఫలమైంది</string>
+    <string name="cancel">రద్దు</string>
+    <string name="ok">నిర్ధారించాలా</string>
+    <string name="install_complete">ఇన్‌స్టలేషన్ విజయవంతమైంది</string>
+    <string name="download_speed">%2$s KB/S</string>
+    <string name="download_list_action">com.zxt.download2.action</string>
+    <string name="warn_search_no_content">సెర్చ్ కంటెంట్ ఖాళీగా ఉండరాదు</string>
+    <string name="invaild_banner_link">చెల్లుబాటుకాని లింక్</string>
+    <string name="is_new_version">తాజా వెర్షన్!</string>
+    <string name="missing_title">పేరులేదు</string>
+    <string name="get_update_msg">అప్‌డేట్ చేయబడ్డ సమాచారాన్ని పొందుతోంది\u2026</string>
+    <string name="get_new_version">కొత్తవెర్షన్ గుర్తించబడింది, అప్‌డేట్ చేయాలా?</string>
+    <string name="install_fail">ఇన్‌స్టలేషన్ విఫలమైంది</string>
+    <string name="more">"మరిన్ని"</string>
+    <string name="no_app_exist">"అనువర్తనాలు లేవు"!</string>
+    <string name="unknow">"తెలియదు"</string>
+    <string name="uninstall_or_not">ఈ యాప్ అన్‌మౌంట్ చేయాలా?</string>
+    <string name="task_downloading">డౌన్‌లోడ్ టాస్క్ నిష్క్రమించింది</string>
+
+    <string name="developer">డెవలపర్:</string>
+    <string name="task_exist">తాజా వెర్షన్ డౌన్‌లోడ్ చేయబడింది!</string>
+
+    <string name="desc_short">Brief</string>
+    <string name="appcenter_play">Play</string>
+    <string name="appcenter_version">"సంస్కరణ":</string>
+    <string name="appcenter_size">"పరిమాణం":</string>
+</resources>

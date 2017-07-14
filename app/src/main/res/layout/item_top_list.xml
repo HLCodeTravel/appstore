@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="344dp"
+    android:layout_height="76dp"
+    android:layout_marginTop="16dp"
+    android:gravity="center"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:orientation="horizontal">
+
+    <TextView
+        style="@style/tv_number_sort"
+        android:layout_width="24dp"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:id="@+id/tv_rank_number"
+        android:background="@mipmap/ranknumber_bg"
+        android:text="4" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:id="@+id/iv_game_icon"
+        android:background="@mipmap/arix" />
+
+    <LinearLayout
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:id="@+id/tv_game_title"
+            android:text="The Amazing Spider" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+            <include layout="@layout/star_layout"/>
+
+            <TextView
+                style="@style/tv_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:paddingEnd="8dp"
+                android:paddingStart="8dp"
+                android:id="@+id/iv_game_type"
+                android:gravity="center"
+                android:background="@drawable/game_type_bg"
+                android:text="Action" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/tv_desc"
+                android:id="@+id/iv_game_size"
+                android:text="11.4MB"/>
+        </LinearLayout>
+
+        <TextView
+            style="@style/tv_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:layout_marginTop="8dp"
+            android:id="@+id/iv_game_desc"
+            android:text="With over a zillion downloads, Temple Run" />
+
+    </LinearLayout>
+
+    <Button
+        style="@style/btn_name"
+        android:gravity="center"
+        android:layout_gravity="center|end"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:id="@+id/btn_state"
+        android:text="Download" />
+
+</LinearLayout>

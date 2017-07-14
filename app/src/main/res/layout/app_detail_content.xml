@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_single_line_brief"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#ff6e6e6e" />
+
+    <HorizontalScrollView
+        android:id="@+id/hs_screen_shots"
+        android:layout_width="match_parent"
+        android:layout_height="184dp"
+        android:layout_below="@+id/tv_single_line_brief"
+        android:layout_marginTop="@dimen/dimen_8dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:paddingEnd="@dimen/app_detail_shots_margin"
+        android:paddingStart="@dimen/app_detail_shots_margin"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/ly_screen_shots"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" />
+
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:id="@+id/ll_shorts"
+        style="@style/adapter_game_item_layout_padding_style"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hs_screen_shots"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:text="@string/desc_short"
+            android:textColor="#ff525252"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_app_detail_desc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:textColor="#ff6e6e6e" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

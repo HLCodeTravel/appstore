@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="install_records">ምፅዓን ቅድሓት</string>
+    <string name="install_complete">ምፅዓን ተዓዊቱ</string>
+    <string name="install_app">ፅዓን</string>
+    <string name="share">ኣካፍል</string>
+    <string name="settings">ስንድኦታት</string>
+    <string name="no_task">ተልእኮ የለን</string>
+    <string name="uninstall">ኣራግፍ</string>
+    <string name="uninstalling">ኣብ ምርጋፍ</string>
+    <string name="check_update">ንምሕዳሳት ኣረጋግፅ</string>
+    <string name="installed_app_update">ዓዉደሞያ ምሕዳሰ</string>
+    <string name="app_manager">ዓዉደሞያ ኣመሓዳሪ</string>
+    <string name="app_detail">ናይ ዓዉደሞያ ሓበሬታ</string>
+
+    <string name="appcenter_request_fail">ንምፅዓን ኣይተሳኸዐን፣ ፀኒሖም መሊሶም ይፈትኑ</string>
+    <string name="appcenter_open_text">ኽፈት</string>
+    <string name="missing_title">ዘይተሰየመ</string>
+    <string name="appcenter_appcenter_update_text">ኣሐድስ</string>
+    <string name="appcenter_apps_update_operation_ignore">ንፀግ</string>
+    <string name="appcenter_apps_update_see_all">ኹሉ ርአ</string>
+    <string name="appcenter_search_box_default_content">ድለ</string>
+    <string name="appcenter_search_no_result_text">ዝተዛመደ ትሕዝቶ የለን</string>
+    <string name="appcenter_search_no_more_tip">ተወሰኽቲ ዓወደሞያታት የለዉን</string>
+    <string name="appcenter_apps_update_go">ኺድ</string>
+    <string name="appcenter_delete_history_all">ኹሉ ኣፅርይ</string>
+    <string name="appcenter_apps_update_no_update_app_prompt">ኹሎም ዓዉደሞያታት ናብ ቐረባ ስርሒት ተሓዲሶም፣ ኸይዲ ይቐፅሉ!</string>
+    <string name="appcenter_apps_update_refresh">ኣሐድስ</string>
+    <string name="installing">ኣብምፅዓን</string>
+    <string name="is_new_version">ናይ ቐረባ ስርሒት!</string>
+    <string name="warn_search_no_content">ምድላይ ትሕዝቶ ባዶ ክኸዉን ኣይኽእልን</string>
+
+    <string name="appcenter_download_text">ኣዉርድ</string>
+    <string name="download_manager">ናይ ምዉራድ ኣመሓዳሪ</string>
+    <string name="downloaded_group_title">ተዛዚሙ</string>
+    <string name="download_complete">ምዉራድ ተዛዚሙ</string>
+    <string name="download_status_downloading">ኣብ ምዉራድ</string>
+    <string name="download_status_pause">ጠጠዉ ኣብል</string>
+    <string name="download_status_init">ንምዉራድ ኣዳልዉ</string>
+
+    <string name="download_continue">ቐፅል</string>
+    <string name="download_error">ናይ ምዉራድ ዉድቐት</string>
+    <string name="cancel">ሰርዝ</string>
+    <string name="ok">አረጋግፅ</string>
+    <string name="clear_task_records">ቅድሓት ኣጥፍእ</string>
+    <string name="appcenter_no_network">መርበብ የለን</string>
+    <string name="invaild_banner_link">ተቐባልነት ዘይበሉ ሊንክ</string>
+
+    <string name="get_update_msg">ናይ ምሕዳስ ሓበሬታ ኣብ ምርካብ</string>
+    <string name="get_new_version">ሓዱሽ ስርሒት ተረኺቡ፣ ኣሓድስ?</string>
+    <string name="install_fail">ምፅዓን ስሕተት</string>
+    <string name="more">ተወሳኺ</string>
+    <string name="no_app_exist">ዓዉደሞያታት የለዉን</string>
+    <string name="unknow">ዘይተፈለጠ</string>
+    <string name="uninstall_or_not">እዚ ዓዉደሞያ ንቐል?</string>
+    <string name="task_downloading">ናይ ምዉራድ ስራሕ ተፈጢሩ</string>
+
+    <string name="developer">ኣማዕባሊ</string>
+    <string name="task_exist">ናይ ቐረባ ስርሒት ወሪዱ እዩ</string>
+    <string name="desc_short">መእተዊ</string>
+    <string name="appcenter_play">ኽፈት</string>
+    <string name="appcenter_version">ስርሒት</string>
+    <string name="appcenter_size">መጠን</string>
+</resources>

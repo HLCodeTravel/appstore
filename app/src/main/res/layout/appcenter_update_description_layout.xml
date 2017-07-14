@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/description_ctrl_btn_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:background="@drawable/appcenter_bt_ignore_selector">
+        <!-- 文字说明 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/appcenter_apps_update_see_all"
+            android:textColor="#BBBBBB"
+            android:textSize="12sp" />
+        <!-- 箭头图标 -->
+        <ImageView
+            android:id="@+id/description_ctrl_btn"
+            android:layout_width="8dp"
+            android:layout_height="6dp"
+            android:layout_marginStart="5dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/appcenter_manager_update_see_all_down_icon"
+            android:layout_marginTop="6dp"/>
+    </LinearLayout>
+    <!-- 更新说明 -->
+    <TextView
+        android:id="@+id/update_description_content_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:paddingTop="4dp"
+        android:textColor="#BBBBBB"
+        android:textSize="12sp" />
+</LinearLayout>

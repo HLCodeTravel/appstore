@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">Aha</string>
+
+    <string name="install_records">Catatan pemasangan
+</string>
+    <string name="install_app">Pasang
+</string>
+    <string name="share">Bagikan
+</string>
+    <string name="settings">"Setelan"
+</string>
+    <string name="no_task">Tidak ada misi
+</string>
+    <string name="uninstall">"Copot pemasangan"
+</string>
+    <string name="uninstalling">Mencopot pemasangan
+</string>
+    <string name="check_update">Periksa pembaruan
+</string>
+    <string name="installed_app_update">Apl pembaruan
+</string>
+    <string name="app_manager">Pengelolaan aplikasi
+</string>
+    <string name="app_detail">"Info aplikasi"
+</string>
+
+    <string name="appcenter_no_network">Jaringan tidak tersedia
+</string>
+    <string name="appcenter_request_fail">Gagal memuat, coba lagi nanti.
+</string>
+    <string name="appcenter_open_text">Buka
+</string>
+    <string name="appcenter_appcenter_update_text">"Perbarui"
+</string>
+    <string name="appcenter_apps_update_operation_ignore">Abaikan
+</string>
+    <string name="appcenter_apps_update_see_all">Lihat semua
+</string>
+    <string name="clear_task_records">Hapus catatan
+</string>
+    <string name="appcenter_search_box_default_content">"Telusuri"
+</string>
+    <string name="appcenter_search_no_result_text">Tidak ada konten terkait
+</string>
+    <string name="appcenter_search_no_more_tip">Tidak ada aplikasi lagi
+</string>
+    <string name="appcenter_apps_update_go">Buka
+</string>
+    <string name="appcenter_delete_history_all">"Hapus semua"
+</string>
+    <string name="appcenter_apps_update_no_update_app_prompt">Semua aplikasi telah diperbarui ke versi terbaru, terus lanjutkan!
+</string>
+    <string name="appcenter_apps_update_refresh">"Segarkan"
+</string>
+    <string name="installing">Memasang
+</string>
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+    <string name="appcenter_download_text">Unduh
+</string>
+    <string name="download_manager">Pengelola unduhan
+</string>
+    <string name="downloaded_group_title">Menyelesaikan
+</string>
+    <string name="download_complete">Unduh selesai
+</string>
+    <string name="download_status_downloading">"Mengunduh"
+</string>
+    <string name="download_status_pause">"Jeda"
+</string>
+    <string name="download_status_init">Bersiap untuk mengunduh
+</string>
+    <string name="download_status_stop">"Jeda"
+</string>
+    <string name="download_continue">Lanjutkan
+</string>
+    <string name="download_error">Unduh gagal
+</string>
+    <string name="cancel">Batal
+</string>
+    <string name="ok">"Konfirmasi"
+</string>
+    <string name="install_complete">Pemasangan Sukses
+</string>
+    <string name="download_speed">%2$s KB/S</string>
+    <string name="download_list_action">com.zxt.download2.action</string>
+    <string name="warn_search_no_content">Konten pencarian tidak boleh kosong
+</string>
+    <string name="invaild_banner_link">Tautan tidak valid
+</string>
+    <string name="is_new_version">Versi terbaru!
+</string>
+    <string name="missing_title">Tanpa nama
+</string>
+    <string name="get_update_msg">Mendapatkan informasi pembaruan\u2026</string>
+    <string name="get_new_version">Versi baru terdeteksi, memperbarui?
+</string>
+    <string name="install_fail">Kegagalan memasang
+</string>
+    <string name="more">Lainnya
+</string>
+    <string name="no_app_exist">Tidak ada aplikasi
+</string>
+    <string name="unknow">Tidak diketahui
+</string>
+    <string name="uninstall_or_not">Lepaskan aplikasi ini?</string>
+    <string name="task_downloading">Tugas unduh ada
+</string>
+
+    <string name="developer">Pengembang:</string>
+    <string name="task_exist">Versi terbaru telah diunduh
+</string>
+
+    <string name="desc_short">Pengenalan
+</string>
+    <string name="appcenter_play">Buka
+</string>
+    <string name="appcenter_version">"Versi":</string>
+    <string name="appcenter_size">"Ukuran":</string>
+</resources>

@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_main_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appcenter_common_bg_color_grey">
+
+    <!-- title -->
+    <include
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/appcenter_search_title_bar_height"
+        android:layout_alignParentTop="true"
+        layout="@layout/appcenter_search_title_layout" />
+
+    <!-- search result -->
+    <net.bat.store.ux.fragment.HotWordsFragment
+        android:id="@+id/appcenter_hotwords_interface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_layout"
+        android:visibility="gone"
+        />
+
+
+    <ImageView
+        android:id="@+id/shadow_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/title_layout"
+        android:scaleType="fitXY"
+        android:src="@drawable/appcenter_horizon_viewpager_bottom_shadow" />
+
+</RelativeLayout>

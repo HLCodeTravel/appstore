@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/appcenter_card_appinfo_height"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_app_icon"
+        android:layout_width="@dimen/dimen_40dp"
+        android:layout_height="@dimen/dimen_40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/dimen_16dp"
+        android:src="@drawable/file_type_application"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@id/iv_app_icon"
+        android:orientation="vertical"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_app_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/middle"
+            android:text="aaaaaa"
+            android:layout_marginBottom="8dp"
+            />
+
+        <ProgressBar
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_2dp"
+            android:id="@+id/pb_current_size"
+            android:progressDrawable="@drawable/download_progress"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/tv_download_size"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/little"
+                android:text="aaa/aaa" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/tv_download_status"
+                android:layout_alignParentEnd="true"
+                android:textSize="@dimen/small"
+                android:text="status" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:background="#D1D1D1"
+        android:id="@+id/line_up"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

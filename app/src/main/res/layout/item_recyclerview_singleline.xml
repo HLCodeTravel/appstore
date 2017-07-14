@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/category_games_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/appcenter_item_selector"
+    android:descendantFocusability="blocksDescendants">
+
+    <RelativeLayout
+        android:id="@+id/rv_category"
+        android:layout_width="@dimen/appcenter_categoty_icon_frame_size"
+        android:layout_height="@dimen/appcenter_categoty_icon_frame_size"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/category_icon_bg">
+
+        <ImageView
+            android:id="@+id/category_games_icon"
+            android:layout_width="@dimen/appcenter_categoty_icon_size"
+            android:layout_height="@dimen/appcenter_categoty_icon_size"
+            android:layout_centerInParent="true"
+            android:scaleType="centerInside" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/category_games_name"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@id/rv_category"
+        android:gravity="center"
+        android:textColor="#575757"
+        android:textSize="15sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/category_games_name"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@id/rv_category"
+        android:background="#e5e5e5" />
+
+</RelativeLayout>

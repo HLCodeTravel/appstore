@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">Aha</string>
+
+    <string name="install_records">Warabbiwwaan fe\'umsaa</string>
+    <string name="install_app">Fe\'ii</string>
+    <string name="share">Hirii</string>
+    <string name="settings">Hojimatawwaan
+</string>
+    <string name="no_task">Ergmni hin jiru
+</string>
+    <string name="uninstall">Kan fe\'amee haqii
+</string>
+    <string name="uninstalling">Kan fe\'amee haqaa jira
+</string>
+    <string name="check_update">Haromsawwaniif mirkanessi
+</string>
+    <string name="installed_app_update">Haromsaa app
+</string>
+    <string name="app_manager">Bulchinsaa app
+</string>
+    <string name="app_detail">Oddeffannoo app
+</string>
+
+    <string name="appcenter_no_network">Cimdaan hin argamuu
+</string>
+    <string name="appcenter_request_fail">Fe\'uun hin milkofnee. Boodaa debi\'i yaali.
+</string>
+    <string name="appcenter_open_text">Bani
+</string>
+    <string name="appcenter_appcenter_update_text">Haromsi
+</string>
+    <string name="appcenter_apps_update_operation_ignore">Dagadhu
+</string>
+    <string name="appcenter_apps_update_see_all">Hundaa ilallii
+</string>
+    <string name="clear_task_records">Warabiwwaan ballessi
+</string>
+    <string name="appcenter_search_box_default_content">Barbadii
+</string>
+    <string name="appcenter_search_no_result_text">Qabiyyeen wal fakkatuu hin jiru
+</string>
+    <string name="appcenter_search_no_more_tip">Appootni dabalataa hin jiraan
+</string>
+    <string name="appcenter_apps_update_go">Deemi
+</string>
+    <string name="appcenter_delete_history_all">Hundaa qullessi
+</string>
+    <string name="appcenter_apps_update_no_update_app_prompt">Appotni hundii garaa vershinii ammay\'atti demuu ittii fufeera!</string>
+    <string name="appcenter_apps_update_refresh">Haromsii
+</string>
+    <string name="installing">Fe\'aa jira
+</string>
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+    <string name="appcenter_download_text">Buusi
+</string>
+    <string name="download_manager">Bulchinsaa buusii
+</string>
+    <string name="downloaded_group_title">Xumurameera
+</string>
+    <string name="download_complete">Bussun xumurameera.
+</string>
+    <string name="download_status_downloading">Buusaa jira
+</string>
+    <string name="download_status_pause">Yeroof dhaabi
+</string>
+    <string name="download_status_init">Buusuf qophessi
+</string>
+    <string name="download_status_stop">Yeroof dhaabi
+</string>
+    <string name="download_continue">Ittii fufii
+</string>
+    <string name="download_error">Buusuun hin milkofnee
+</string>
+    <string name="cancel">Haqii
+</string>
+    <string name="ok">Fudhadhuu
+</string>
+    <string name="install_complete">Fe\'uun milka\'eera
+</string>
+    <string name="download_speed">%2$s KB/S</string>
+    <string name="download_list_action">com.zxt.download2.action</string>
+    <string name="warn_search_no_content">Qabiyyeen barbachaa duwwaa ta\'uu hin danda\'uu
+</string>
+    <string name="invaild_banner_link">Gessituu fudhatamaa hin qabne
+</string>
+    <string name="is_new_version">Vershinii ammaya\'aa
+!</string>
+    <string name="missing_title">Hin mogganee
+</string>
+    <string name="get_update_msg">Obtaining update information\u2026</string>
+    <string name="get_new_version">New version detected,whether to update</string>
+    <string name="install_fail">Fe\'uun hin milkofnee
+</string>
+    <string name="more">Kan biraa
+</string>
+    <string name="no_app_exist">Appootni hin jiraan
+!</string>
+    <string name="unknow">Hin bekkamuu
+</string>
+    <string name="uninstall_or_not">App kanaa hin maxxansini?
+</string>
+    <string name="task_downloading">Dalagaan buusii yeron isaa dhumeera
+</string>
+
+    <string name="developer">Uumaa
+:</string>
+    <string name="task_exist">Vershinii ammaya\'aa bu\'eera
+!</string>
+
+    <string name="desc_short">Sensaa
+</string>
+    <string name="appcenter_play">Bani
+</string>
+    <string name="appcenter_version">Vershinii:</string>
+    <string name="appcenter_size">Hagamataa:</string>
+</resources>

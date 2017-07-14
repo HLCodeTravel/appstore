@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="install_records">የመጫን ምዝገባዎች</string>
+    <string name="install_complete">መጫን ተሳክቷል</string>
+    <string name="install_app">ጫን</string>
+    <string name="share">አካፍል</string>
+    <string name="settings">ማስተካከያዎች</string>
+    <string name="no_task">ምንም ተልዕኮ የለም</string>
+    <string name="uninstall">አራግፍ</string>
+    <string name="uninstalling">በማራገፍ ላይ</string>
+    <string name="check_update">ማዝመኛዎች አጣራ</string>
+    <string name="installed_app_update">መተግበሪያ አዝምን</string>
+    <string name="app_manager">የመተግበሪያ አስተዳዳሪ</string>
+    <string name="app_detail">የመተግበሪያ መረጃ</string>
+
+    <string name="appcenter_request_fail">መጫን አልተሳካም፣ በኋላ በድጋሚ ይሞክሩ</string>
+    <string name="appcenter_open_text">ክፈት</string>
+    <string name="missing_title">ያልተሰየመ</string>
+    <string name="appcenter_appcenter_update_text">አዝምን</string>
+    <string name="appcenter_apps_update_operation_ignore">ችላ በል</string>
+    <string name="appcenter_apps_update_see_all">ሁሉንም አሳይ</string>
+    <string name="appcenter_search_box_default_content">ይፈልጉ</string>
+    <string name="appcenter_search_no_result_text">ምንም ተዛማጅ ይዘት የለም</string>
+    <string name="appcenter_search_no_more_tip">ተጨማሪ መተግበሪያዎች የሉም</string>
+    <string name="appcenter_apps_update_go">ሂድ</string>
+    <string name="appcenter_delete_history_all">ሁሉንም አጽዳ</string>
+    <string name="appcenter_apps_update_no_update_app_prompt">ሁሉም መተግበሪያዎች ወደ ቅርብ ጊዜው ስሪት ዘምነዋል፣ መስራት ቀጥል!</string>
+    <string name="appcenter_apps_update_refresh">አድስ</string>
+    <string name="installing">በመጫን ላይ</string>
+    <string name="is_new_version">የቅርብ ጊዜ ስሪት!</string>
+    <string name="warn_search_no_content">የፍለጋ  ይዘት ባዶ መሆን አይችልም</string>
+
+    <string name="appcenter_download_text">አውርድ</string>
+    <string name="download_manager">የማውረጃ አስተዳዳሪ</string>
+    <string name="downloaded_group_title">ተጠናቋል</string>
+    <string name="download_complete">ማውረድ ተጠናቋል</string>
+    <string name="download_status_downloading">በማውረድ ላይ</string>
+    <string name="download_status_pause">አሳርፍ</string>
+    <string name="download_status_init">ለማውረድ አዘጋጅ</string>
+
+    <string name="download_continue">ቀጥል</string>
+    <string name="download_error">ማውረድ አልተሳካም</string>
+    <string name="cancel">ሰርዝ</string>
+    <string name="ok">አረጋግጥ</string>
+    <string name="clear_task_records">መዝገቦች አጥፋ</string>
+    <string name="appcenter_no_network">አውታር መረብ አይገኝም</string>
+    <string name="invaild_banner_link">ተቀባይነት የሌለው አገናኝ</string>
+
+    <string name="get_update_msg">የማዝመኛ መረጃ በማግኘት ላይ</string>
+    <string name="get_new_version">አዲስ ስሪት ተገኝቷል፣ ይዝመን?</string>
+    <string name="install_fail">መጫን አልተሳካም</string>
+    <string name="more">ተጨማሪ</string>
+    <string name="no_app_exist">መተግበሪያዎች የለም</string>
+    <string name="unknow">ያልታወቀ</string>
+    <string name="uninstall_or_not">ይህ መተግበሪያ ይነቀል?</string>
+    <string name="task_downloading">የማውረጃ ተግባር አለ</string>
+
+    <string name="developer">ገንቢ</string>
+    <string name="task_exist">የቅርብ ጊዜው ስሪት ወርዷል</string>
+    <string name="desc_short">መግቢያ</string>
+    <string name="appcenter_play">ክፈት</string>
+    <string name="appcenter_version">ስሪት</string>
+    <string name="appcenter_size">መጠን</string>
+</resources>

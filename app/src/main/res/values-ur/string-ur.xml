@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="install_records">انسٹالیشن ریکارڈز</string>
+    <string name="install_complete">انسٹالیشن کی کامیابی</string>
+    <string name="install_app">"انسٹال کریں"</string>
+    <string name="share">"اشتراک کریں"</string>
+    <string name="settings">"ترتیبات"</string>
+    <string name="no_task">کوئی مشن نہیں</string>
+    <string name="uninstall">"اَن انسٹال کریں"</string>
+    <string name="uninstalling">اِن انسٹال کر رہا ہے</string>
+    <string name="check_update">پڑتال برائے تازہ کاریاں</string>
+    <string name="installed_app_update">ایپ کی اپ ڈیٹ</string>
+    <string name="app_manager">ایپ کی تنظیم</string>
+    <string name="app_detail">"ایپ کی معلومات"</string>
+
+    <string name="appcenter_request_fail">لوڈ کرنے میں ناکام رہے، بعد میں دوبارہ کوشش کریں۔</string>
+    <string name="appcenter_open_text">"کھولیں"</string>
+    <string name="missing_title">بے نام</string>
+    <string name="appcenter_appcenter_update_text">"تازہ معلومات"</string>
+    <string name="appcenter_apps_update_operation_ignore">"نظر انداز کریں"</string>
+    <string name="appcenter_apps_update_see_all">سب دیکھیں</string>
+    <string name="appcenter_search_box_default_content">"تلاش کریں"</string>
+    <string name="appcenter_search_no_result_text">کوئی متعلقہ مواد نہیں</string>
+    <string name="appcenter_search_no_more_tip">مزید ایپس کوئی نہیں</string>
+    <string name="appcenter_apps_update_go">"جائیں"</string>
+    <string name="appcenter_delete_history_all">"سبھی کو صاف کریں"</string>
+    <string name="appcenter_apps_update_no_update_app_prompt">تمام ایپس کو تازہ ترین ورژنز پر اپ ڈیٹ کر دیا گیا ہے، چلتے رہیں!</string>
+    <string name="appcenter_apps_update_refresh">"ریفریش کریں"</string>
+    <string name="installing">"انسٹال کیا جا رہا ہے"</string>
+    <string name="is_new_version">تازہ ترین ورژن!</string>
+    <string name="warn_search_no_content">تلاش کا مواد خالی نہیں ہو سکتا</string>
+
+    <string name="appcenter_download_text">"ڈاؤن لوڈ کریں"</string>
+    <string name="download_manager">ڈاؤن لوڈ مینیجر</string>
+    <string name="downloaded_group_title">مکمل</string>
+    <string name="download_complete">ڈاؤن لوڈ مکمل ہو گیا۔</string>
+    <string name="download_status_downloading">"ڈاؤن لوڈ کیا جا رہا ہے"</string>
+    <string name="download_status_pause">"موقوف کریں"</string>
+    <string name="download_status_init">ڈاؤن لوڈ کرنے کیلئے تیاری کریں</string>
+
+    <string name="download_continue">"جاری رکھیں"</string>
+    <string name="download_error">ڈاؤن لوڈ میں ناکامی</string>
+    <string name="cancel">"منسوخ کریں"</string>
+    <string name="ok">"توثیق کریں"</string>
+    <string name="clear_task_records">ریکارڈز حذف کر دیں</string>
+    <string name="appcenter_no_network">نیٹ ورک دستیاب نہیں</string>
+    <string name="invaild_banner_link">غلط لنک</string>
+
+    <string name="get_update_msg">اپ ڈیٹ کی معلومات حاصل کرنا</string>
+    <string name="get_new_version">نئے ورژن کی نشاندہی ہوئی، اپ ڈیٹ کریں؟</string>
+    <string name="install_fail">انسٹالیشن میں ناکامی</string>
+    <string name="more">مزید</string>
+    <string name="no_app_exist">"کوئی ایپس نہیں ہیں"</string>
+    <string name="unknow">"نامعلوم"</string>
+    <string name="uninstall_or_not">اس ایپ کو اَن ماؤنٹ کر دیں؟</string>
+    <string name="task_downloading">ڈاؤن لوڈ کام پہلے سے موجود ہے</string>
+
+    <string name="developer">ڈویلپر</string>
+    <string name="task_exist">تازہ ترین ورژن ڈاؤن لوڈ کردہ ہے</string>
+    <string name="desc_short">تعارف</string>
+    <string name="appcenter_play">"کھولیں"</string>
+    <string name="appcenter_version">"ورژن"</string>
+    <string name="appcenter_size">"سائز"</string>
+</resources>
